@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "regions": [
+    {
+      "id": "TR",
+      "name": { "tr": "Türkiye", "en": "Turkey" },
+      "file": "tr-20261103.pmtiles",
+      "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-20261103/tr-20261103.pmtiles",
+      "bytes": 1656130887,
+      "sha256": "c4251cfcaede4ea2b47d54db85f5db40fffc75790239349074059e656933a6ad",
+      "bbox": [25.5, 35.7, 45.0, 42.2],
+      "maxZoom": 15,
+      "built": "2026-11-03"
+    }
+  ]
+}
