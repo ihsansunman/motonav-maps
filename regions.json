@@ -1,27 +1,1611 @@
 {
-  "version": 1,
-  "regions": [
-    {
-      "id": "TR",
-      "name": {
-        "tr": "Türkiye",
-        "en": "Turkey"
-      },
-      "file": "tr-20261103.pmtiles",
-      "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-20261103/tr-20261103.pmtiles",
-      "bytes": 1656130887,
-      "sha256": "c4251cfcaede4ea2b47d54db85f5db40fffc75790239349074059e656933a6ad",
-      "bbox": [
-        25.5,
-        35.7,
-        45.0,
-        42.2
-      ],
-      "maxZoom": 15,
-      "built": "2026-11-03"
-    }
-  ],
-  "services": {
-    "valhalla_routing": "https://valhalla1.openstreetmap.de"
+ "version": 2,
+ "regions": [
+  {
+   "id": "TR",
+   "name": {
+    "tr": "Türkiye",
+    "en": "Turkey"
+   },
+   "file": "tr-20261103.pmtiles",
+   "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-20261103/tr-20261103.pmtiles",
+   "bytes": 1656130887,
+   "sha256": "c4251cfcaede4ea2b47d54db85f5db40fffc75790239349074059e656933a6ad",
+   "bbox": [
+    25.5,
+    35.7,
+    45.0,
+    42.2
+   ],
+   "maxZoom": 15,
+   "built": "2026-11-03"
   }
+ ],
+ "services": {
+  "valhalla_routing": "https://valhalla1.openstreetmap.de"
+ },
+ "countries": [
+  {
+   "id": "TR",
+   "name": {
+    "tr": "Türkiye",
+    "en": "Turkey"
+   },
+   "available": true,
+   "whole": {
+    "file": "tr-20261103.pmtiles",
+    "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-20261103/tr-20261103.pmtiles",
+    "bytes": 1656130887,
+    "sha256": "c4251cfcaede4ea2b47d54db85f5db40fffc75790239349074059e656933a6ad",
+    "bbox": [
+     25.5,
+     35.7,
+     45.0,
+     42.2
+    ],
+    "built": "2026-11-03",
+    "id": "TR",
+    "name": {
+     "tr": "Türkiye",
+     "en": "Turkey"
+    }
+   },
+   "parts": [
+    {
+     "id": "TR-01",
+     "name": {
+      "tr": "Adana",
+      "en": "Adana"
+     },
+     "file": "TR-01.pmtiles",
+     "bytes": 30007066,
+     "sha256": "640e9a6bea9c5383e38636c1e7b4a22e27110c7800b50deefcdb02c40385c872",
+     "bbox": [
+      34.7697,
+      36.5388,
+      36.4096,
+      38.4046
+     ],
+     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261103/TR-01.pmtiles",
+     "built": "2026-11-03"
+    },
+    {
+     "id": "TR-02",
+     "name": {
+      "tr": "Adıyaman",
+      "en": "Adıyaman"
+     },
+     "file": "TR-02.pmtiles",
+     "bytes": 14407891,
+     "sha256": "70d14e18e5a1f2410ae838adcfbc017fc6480d5f3f483db874f6a4c97d6fef39",
+     "bbox": [
+      37.436,
+      37.4097,
+      39.2633,
+      38.2101
+     ],
+     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261103/TR-02.pmtiles",
+     "built": "2026-11-03"
+    },
+    {
+     "id": "TR-03",
+     "name": {
+      "tr": "Afyonkarahisar",
+      "en": "Afyonkarahisar"
+     },
+     "file": "TR-03.pmtiles",
+     "bytes": 17658983,
+     "sha256": "461565e90ee7c5b52a9bb032ba025f198c0450bda68827338649718a29c129a5",
+     "bbox": [
+      29.6589,
+      37.7775,
+      31.732,
+      39.267
+     ],
+     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261103/TR-03.pmtiles",
+     "built": "2026-11-03"
+    },
+    {
+     "id": "TR-68",
+     "name": {
+      "tr": "Aksaray",
+      "en": "Aksaray"
+     },
+     "file": "TR-68.pmtiles",
+     "bytes": 7842787,
+     "sha256": "8b5312594cb4772429f0794a4b4e9255341b09a58e34967ff9bd36f99f074694",
+     "bbox": [
+      33.1712,
+      37.9799,
+      34.5006,
+      39.0509
+     ],
+     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261103/TR-68.pmtiles",
+     "built": "2026-11-03"
+    },
+    {
+     "id": "TR-05",
+     "name": {
+      "tr": "Amasya",
+      "en": "Amasya"
+     },
+     "file": "TR-05.pmtiles",
+     "bytes": 12256248,
+     "sha256": "dc9725a34d2ac585c127a08a89c4de930bc1828dfffabc6808f7f519c15849d6",
+     "bbox": [
+      34.9788,
+      40.233,
+      36.5122,
+      41.0776
+     ],
+     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261103/TR-05.pmtiles",
+     "built": "2026-11-03"
+    },
+    {
+     "id": "TR-06",
+     "name": {
+      "tr": "Ankara",
+      "en": "Ankara"
+     },
+     "file": "TR-06.pmtiles",
+     "bytes": 50192707,
+     "sha256": "0581abcb90dc23bc018fa7e4db54ce6bb3a70bfbad2e9718a46cb5a4eb4a5d56",
+     "bbox": [
+      30.8361,
+      38.6619,
+      33.8852,
+      40.7539
+     ],
+     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261103/TR-06.pmtiles",
+     "built": "2026-11-03"
+    },
+    {
+     "id": "TR-07",
+     "name": {
+      "tr": "Antalya",
+      "en": "Antalya"
+     },
+     "file": "TR-07.pmtiles",
+     "bytes": 43407391,
+     "sha256": "cf1963f9ad175eb7ea912c87ad934e8376b45b156597bfc2ef9901bcf5c5c26b",
+     "bbox": [
+      29.262,
+      36.0935,
+      32.6236,
+      37.4261
+     ],
+     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261103/TR-07.pmtiles",
+     "built": "2026-11-03"
+    },
+    {
+     "id": "TR-75",
+     "name": {
+      "tr": "Ardahan",
+      "en": "Ardahan"
+     },
+     "file": "TR-75.pmtiles",
+     "bytes": 6224425,
+     "sha256": "684150ce9e91599ab26650a7e12859bbcb1997659ad22a0b24e31bbf07d3250c",
+     "bbox": [
+      42.3159,
+      40.6292,
+      43.4741,
+      41.6002
+     ],
+     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261103/TR-75.pmtiles",
+     "built": "2026-11-03"
+    },
+    {
+     "id": "TR-08",
+     "name": {
+      "tr": "Artvin",
+      "en": "Artvin"
+     },
+     "file": "TR-08.pmtiles",
+     "bytes": 14730744,
+     "sha256": "2e2a5c3f8d970965ea7f53585e62c234f30b3dd476ad3a13f57ad2bf6379a610",
+     "bbox": [
+      41.1293,
+      40.5572,
+      42.5916,
+      41.5245
+     ],
+     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261103/TR-08.pmtiles",
+     "built": "2026-11-03"
+    },
+    {
+     "id": "TR-09",
+     "name": {
+      "tr": "Aydın",
+      "en": "Aydın"
+     },
+     "file": "TR-09.pmtiles",
+     "bytes": 15877517,
+     "sha256": "626974ef3cab6cc6613917436fff04bbb646ddccb8fa73c12779778295114d38",
+     "bbox": [
+      26.9999,
+      37.3229,
+      28.9045,
+      38.1293
+     ],
+     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261103/TR-09.pmtiles",
+     "built": "2026-11-03"
+    },
+    {
+     "id": "TR-04",
+     "name": {
+      "tr": "Ağrı",
+      "en": "Ağrı"
+     },
+     "file": "TR-04.pmtiles",
+     "bytes": 8847008,
+     "sha256": "f8d1b16df299b5d17caa14bb94ea4e285b93653433f5e35c0ceb851d005856e3",
+     "bbox": [
+      42.279,
+      38.9308,
+      44.4871,
+      40.0023
+     ],
+     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261103/TR-04.pmtiles",
+     "built": "2026-11-03"
+    },
+    {
+     "id": "TR-10",
+     "name": {
+      "tr": "Balıkesir",
+      "en": "Balıkesir"
+     },
+     "file": "TR-10.pmtiles",
+     "bytes": 43990386,
+     "sha256": "aa01e2ec79ba15165b63f064c96765b134ae942d669932678f4fac93eedaedfd",
+     "bbox": [
+      26.5253,
+      39.072,
+      28.9995,
+      40.6684
+     ],
+     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261103/TR-10.pmtiles",
+     "built": "2026-11-03"
+    },
+    {
+     "id": "TR-74",
+     "name": {
+      "tr": "Bartın",
+      "en": "Bartın"
+     },
+     "file": "TR-74.pmtiles",
+     "bytes": 6221674,
+     "sha256": "4477c23dc03dd1b7314ab08b83029e3e90a9ce0abb2b547ff506ffc7e4438233",
+     "bbox": [
+      32.0951,
+      41.3029,
+      32.939,
+      41.8491
+     ],
+     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261103/TR-74.pmtiles",
+     "built": "2026-11-03"
+    },
+    {
+     "id": "TR-72",
+     "name": {
+      "tr": "Batman",
+      "en": "Batman"
+     },
+     "file": "TR-72.pmtiles",
+     "bytes": 12053356,
+     "sha256": "4a238ba840bb0988c79395318012673c746ee3c6515f0b6086fa38e06fb08856",
+     "bbox": [
+      40.9864,
+      37.4936,
+      41.8214,
+      38.5509
+     ],
+     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261103/TR-72.pmtiles",
+     "built": "2026-11-03"
+    },
+    {
+     "id": "TR-69",
+     "name": {
+      "tr": "Bayburt",
+      "en": "Bayburt"
+     },
+     "file": "TR-69.pmtiles",
+     "bytes": 4744072,
+     "sha256": "022316c5d10cc832acf369280d811f9c71f083b5dc21d2e155d61530f1b6de97",
+     "bbox": [
+      39.663,
+      39.9307,
+      40.7111,
+      40.5684
+     ],
+     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261103/TR-69.pmtiles",
+     "built": "2026-11-03"
+    },
+    {
+     "id": "TR-11",
+     "name": {
+      "tr": "Bilecik",
+      "en": "Bilecik"
+     },
+     "file": "TR-11.pmtiles",
+     "bytes": 10336461,
+     "sha256": "e450e3af6507ec2647a5ac6181196567ff045921de04ec6900daabd6d51b8d6e",
+     "bbox": [
+      29.7206,
+      39.66,
+      30.6624,
+      40.5514
+     ],
+     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261103/TR-11.pmtiles",
+     "built": "2026-11-03"
+    },
+    {
+     "id": "TR-12",
+     "name": {
+      "tr": "Bingöl",
+      "en": "Bingöl"
+     },
+     "file": "TR-12.pmtiles",
+     "bytes": 8324916,
+     "sha256": "1a35f2273389bea3002f319948e64d9e42284cb57ce4cd129bd45d15642c7cbe",
+     "bbox": [
+      39.9346,
+      38.4767,
+      41.266,
+      39.565
+     ],
+     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261103/TR-12.pmtiles",
+     "built": "2026-11-03"
+    },
+    {
+     "id": "TR-13",
+     "name": {
+      "tr": "Bitlis",
+      "en": "Bitlis"
+     },
+     "file": "TR-13.pmtiles",
+     "bytes": 7342783,
+     "sha256": "6c93b5252acef6dc42eca0b17c3857ff8f676c6fe1fa136fff6944a2d2246755",
+     "bbox": [
+      41.4937,
+      37.9692,
+      43.1991,
+      39.0241
+     ],
+     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261103/TR-13.pmtiles",
+     "built": "2026-11-03"
+    },
+    {
+     "id": "TR-14",
+     "name": {
+      "tr": "Bolu",
+      "en": "Bolu"
+     },
+     "file": "TR-14.pmtiles",
+     "bytes": 15647800,
+     "sha256": "8e5ba75f81d9c082170a0c904548f4042cb43f8519a497977d0c8736c738009b",
+     "bbox": [
+      30.5648,
+      40.0979,
+      32.5958,
+      41.0487
+     ],
+     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261103/TR-14.pmtiles",
+     "built": "2026-11-03"
+    },
+    {
+     "id": "TR-15",
+     "name": {
+      "tr": "Burdur",
+      "en": "Burdur"
+     },
+     "file": "TR-15.pmtiles",
+     "bytes": 8062795,
+     "sha256": "24e8e6b659147e424b7d04856405c0f6688e4e163a098d706c24c785206bb7d0",
+     "bbox": [
+      29.3257,
+      36.7982,
+      30.9138,
+      37.8462
+     ],
+     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261103/TR-15.pmtiles",
+     "built": "2026-11-03"
+    },
+    {
+     "id": "TR-16",
+     "name": {
+      "tr": "Bursa",
+      "en": "Bursa"
+     },
+     "file": "TR-16.pmtiles",
+     "bytes": 34441402,
+     "sha256": "82a94080e9ea68b72e57b7baad860e5c1596936d0dc845f47bad15dbd81c6684",
+     "bbox": [
+      28.1069,
+      39.5935,
+      29.91,
+      40.6144
+     ],
+     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261103/TR-16.pmtiles",
+     "built": "2026-11-03"
+    },
+    {
+     "id": "TR-20",
+     "name": {
+      "tr": "Denizli",
+      "en": "Denizli"
+     },
+     "file": "TR-20.pmtiles",
+     "bytes": 20206575,
+     "sha256": "c6a038a3621c92e93125a28c7c9d26817773af60518493d9180740f6efe9bc25",
+     "bbox": [
+      28.569,
+      36.8823,
+      30.093,
+      38.4741
+     ],
+     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261103/TR-20.pmtiles",
+     "built": "2026-11-03"
+    },
+    {
+     "id": "TR-21",
+     "name": {
+      "tr": "Diyarbakır",
+      "en": "Diyarbakır"
+     },
+     "file": "TR-21.pmtiles",
+     "bytes": 31774117,
+     "sha256": "2469b25236c45f706cf45281ddac82f40d95e604a0c92bbce6776e2ae29e4930",
+     "bbox": [
+      39.1065,
+      37.5064,
+      41.3666,
+      38.7146
+     ],
+     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261103/TR-21.pmtiles",
+     "built": "2026-11-03"
+    },
+    {
+     "id": "TR-81",
+     "name": {
+      "tr": "Düzce",
+      "en": "Düzce"
+     },
+     "file": "TR-81.pmtiles",
+     "bytes": 8198226,
+     "sha256": "771737e12b6dd314d4776c47bde81843b7384365119592c808d78bf470f994d2",
+     "bbox": [
+      30.8223,
+      40.6231,
+      31.8536,
+      41.1158
+     ],
+     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261103/TR-81.pmtiles",
+     "built": "2026-11-03"
+    },
+    {
+     "id": "TR-22",
+     "name": {
+      "tr": "Edirne",
+      "en": "Edirne"
+     },
+     "file": "TR-22.pmtiles",
+     "bytes": 22053716,
+     "sha256": "bfd65454e471ae2cd294171b006a417f95746a4d02ec1d1cfc9d20bf76a66a35",
+     "bbox": [
+      26.0364,
+      40.5895,
+      27.0263,
+      42.0028
+     ],
+     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261103/TR-22.pmtiles",
+     "built": "2026-11-03"
+    },
+    {
+     "id": "TR-23",
+     "name": {
+      "tr": "Elazığ",
+      "en": "Elazığ"
+     },
+     "file": "TR-23.pmtiles",
+     "bytes": 13215385,
+     "sha256": "2b8c8b45afa31e790a065c4fb4f5f974b3f6c9ab11b60c89e766f2d23cd404e4",
+     "bbox": [
+      38.3569,
+      38.24,
+      40.3348,
+      39.1914
+     ],
+     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261103/TR-23.pmtiles",
+     "built": "2026-11-03"
+    },
+    {
+     "id": "TR-24",
+     "name": {
+      "tr": "Erzincan",
+      "en": "Erzincan"
+     },
+     "file": "TR-24.pmtiles",
+     "bytes": 10334889,
+     "sha256": "da24fac5f0a2dd493da6f48586c24ea09233bf6226d2c77fb51bb461b3fdd36a",
+     "bbox": [
+      38.2773,
+      39.0092,
+      40.7559,
+      40.0831
+     ],
+     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261103/TR-24.pmtiles",
+     "built": "2026-11-03"
+    },
+    {
+     "id": "TR-25",
+     "name": {
+      "tr": "Erzurum",
+      "en": "Erzurum"
+     },
+     "file": "TR-25.pmtiles",
+     "bytes": 19749812,
+     "sha256": "19c2af0e13f38451078e446aaf27ab7de8a28585b620515c80095f91e315f5c5",
+     "bbox": [
+      40.246,
+      39.1521,
+      42.6202,
+      40.9908
+     ],
+     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261103/TR-25.pmtiles",
+     "built": "2026-11-03"
+    },
+    {
+     "id": "TR-26",
+     "name": {
+      "tr": "Eskişehir",
+      "en": "Eskişehir"
+     },
+     "file": "TR-26.pmtiles",
+     "bytes": 17306829,
+     "sha256": "3747c9eb1a442a22f3f7191af71c4bc3f91509d1fed67ffdf7818fcc8bb4b484",
+     "bbox": [
+      29.9884,
+      39.0403,
+      32.0115,
+      40.1873
+     ],
+     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261103/TR-26.pmtiles",
+     "built": "2026-11-03"
+    },
+    {
+     "id": "TR-27",
+     "name": {
+      "tr": "Gaziantep",
+      "en": "Gaziantep"
+     },
+     "file": "TR-27.pmtiles",
+     "bytes": 25101645,
+     "sha256": "6c7e2434eb3dac8f207c7ef8dd5217b9c06a373776c38b618cfb390b06418fb5",
+     "bbox": [
+      36.4428,
+      36.7058,
+      38.081,
+      37.5271
+     ],
+     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261103/TR-27.pmtiles",
+     "built": "2026-11-03"
+    },
+    {
+     "id": "TR-28",
+     "name": {
+      "tr": "Giresun",
+      "en": "Giresun"
+     },
+     "file": "TR-28.pmtiles",
+     "bytes": 14287662,
+     "sha256": "d6fc5ae6443d57785d3216e8106c7a7469a3bcf85c25cccede42d61d52eeb6f7",
+     "bbox": [
+      37.9604,
+      40.0458,
+      39.1825,
+      41.0793
+     ],
+     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261103/TR-28.pmtiles",
+     "built": "2026-11-03"
+    },
+    {
+     "id": "TR-29",
+     "name": {
+      "tr": "Gümüşhane",
+      "en": "Gümüşhane"
+     },
+     "file": "TR-29.pmtiles",
+     "bytes": 11590553,
+     "sha256": "0815d3b1cbf505c0730e05de844d1f542650395b11f362e5ecaa12220bec587c",
+     "bbox": [
+      38.7505,
+      39.8362,
+      40.1033,
+      40.8373
+     ],
+     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261103/TR-29.pmtiles",
+     "built": "2026-11-03"
+    },
+    {
+     "id": "TR-30",
+     "name": {
+      "tr": "Hakkâri",
+      "en": "Hakkâri"
+     },
+     "file": "TR-30.pmtiles",
+     "bytes": 6761621,
+     "sha256": "cb64145cb3e6e3f9c8ac858243156b97b3695b99824243d7a74c12de80d7680d",
+     "bbox": [
+      43.3065,
+      36.9629,
+      44.8148,
+      37.8106
+     ],
+     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261103/TR-30.pmtiles",
+     "built": "2026-11-03"
+    },
+    {
+     "id": "TR-31",
+     "name": {
+      "tr": "Hatay",
+      "en": "Hatay"
+     },
+     "file": "TR-31.pmtiles",
+     "bytes": 25345403,
+     "sha256": "eb42de92ae04d8142efb5b0ea771757d491c874cd858b49f24bcf360e16c7367",
+     "bbox": [
+      35.7802,
+      35.8077,
+      36.6956,
+      37.0082
+     ],
+     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261103/TR-31.pmtiles",
+     "built": "2026-11-03"
+    },
+    {
+     "id": "TR-32",
+     "name": {
+      "tr": "Isparta",
+      "en": "Isparta"
+     },
+     "file": "TR-32.pmtiles",
+     "bytes": 11708019,
+     "sha256": "02ef97a2ff4aeeb7295081e8d1ddf5a784c01b1e2235d19473a48a9a26d8cda4",
+     "bbox": [
+      30.0926,
+      37.3425,
+      31.5397,
+      38.5091
+     ],
+     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261103/TR-32.pmtiles",
+     "built": "2026-11-03"
+    },
+    {
+     "id": "TR-76",
+     "name": {
+      "tr": "Iğdır",
+      "en": "Iğdır"
+     },
+     "file": "TR-76.pmtiles",
+     "bytes": 4526846,
+     "sha256": "174774cf2204db8f1c773771d652a9d5f7a29b1fa95c731d7ee365c49f2da06b",
+     "bbox": [
+      43.2843,
+      39.6273,
+      44.8177,
+      40.1315
+     ],
+     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261103/TR-76.pmtiles",
+     "built": "2026-11-03"
+    },
+    {
+     "id": "TR-46",
+     "name": {
+      "tr": "Kahramanmaraş",
+      "en": "Kahramanmaraş"
+     },
+     "file": "TR-46.pmtiles",
+     "bytes": 29387812,
+     "sha256": "22bfbaccea2d8e4719e76c256d5d3d89b082b3cf375a6c3f5801b1c8346c8640",
+     "bbox": [
+      36.2013,
+      37.181,
+      37.7519,
+      38.5861
+     ],
+     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261103/TR-46.pmtiles",
+     "built": "2026-11-03"
+    },
+    {
+     "id": "TR-78",
+     "name": {
+      "tr": "Karabük",
+      "en": "Karabük"
+     },
+     "file": "TR-78.pmtiles",
+     "bytes": 9141134,
+     "sha256": "0f2579b1ab772ebc3f6df84efe50e86105e6c3cb3f3d8a2f2053ad952380ee3f",
+     "bbox": [
+      31.9738,
+      40.8254,
+      33.1373,
+      41.5879
+     ],
+     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261103/TR-78.pmtiles",
+     "built": "2026-11-03"
+    },
+    {
+     "id": "TR-70",
+     "name": {
+      "tr": "Karaman",
+      "en": "Karaman"
+     },
+     "file": "TR-70.pmtiles",
+     "bytes": 8189609,
+     "sha256": "b73f964c31b2e5900819f25e6272bc1838a7df37acb2fbe3b41ef876bdbdfb4b",
+     "bbox": [
+      32.4698,
+      36.4519,
+      34.2592,
+      37.5617
+     ],
+     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261103/TR-70.pmtiles",
+     "built": "2026-11-03"
+    },
+    {
+     "id": "TR-36",
+     "name": {
+      "tr": "Kars",
+      "en": "Kars"
+     },
+     "file": "TR-36.pmtiles",
+     "bytes": 9302243,
+     "sha256": "b3a5b73802c30c12060a08b5f1023097d86f2a7fcd3470a07d99c1786c3baa2f",
+     "bbox": [
+      42.1007,
+      39.9346,
+      43.7483,
+      41.0965
+     ],
+     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261103/TR-36.pmtiles",
+     "built": "2026-11-03"
+    },
+    {
+     "id": "TR-37",
+     "name": {
+      "tr": "Kastamonu",
+      "en": "Kastamonu"
+     },
+     "file": "TR-37.pmtiles",
+     "bytes": 25253382,
+     "sha256": "5e3413d743f6909e5afb5af0122d80f71e4d26c94bfcc54eab15577f74d08180",
+     "bbox": [
+      32.7468,
+      40.8197,
+      34.6068,
+      42.0196
+     ],
+     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261103/TR-37.pmtiles",
+     "built": "2026-11-03"
+    },
+    {
+     "id": "TR-38",
+     "name": {
+      "tr": "Kayseri",
+      "en": "Kayseri"
+     },
+     "file": "TR-38.pmtiles",
+     "bytes": 61023324,
+     "sha256": "9acedc4e142b32d48a29e8ac1c568fc2a0ac22a9d36ae7f47cd62b28aed34cbe",
+     "bbox": [
+      34.8469,
+      37.6914,
+      36.9598,
+      39.3223
+     ],
+     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261103/TR-38.pmtiles",
+     "built": "2026-11-03"
+    },
+    {
+     "id": "TR-79",
+     "name": {
+      "tr": "Kilis",
+      "en": "Kilis"
+     },
+     "file": "TR-79.pmtiles",
+     "bytes": 5141730,
+     "sha256": "ceb6426060ae4dbf3ec55804c261a7ce635f5d9b79af15139ad160dcb3fff902",
+     "bbox": [
+      36.7124,
+      36.6327,
+      37.5727,
+      37.0346
+     ],
+     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261103/TR-79.pmtiles",
+     "built": "2026-11-03"
+    },
+    {
+     "id": "TR-41",
+     "name": {
+      "tr": "Kocaeli",
+      "en": "Kocaeli"
+     },
+     "file": "TR-41.pmtiles",
+     "bytes": 21546826,
+     "sha256": "792a52a422ae8d16b3ad0f859d7b4611edd7f364ee9402170cb9afea8029ae1c",
+     "bbox": [
+      29.3334,
+      40.5248,
+      30.3671,
+      41.2172
+     ],
+     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261103/TR-41.pmtiles",
+     "built": "2026-11-03"
+    },
+    {
+     "id": "TR-42",
+     "name": {
+      "tr": "Konya",
+      "en": "Konya"
+     },
+     "file": "TR-42.pmtiles",
+     "bytes": 37325426,
+     "sha256": "a3bd46ef2fbc2f990a070771854da5d7f5192b17b7b57fc93f761cbe1a4520d2",
+     "bbox": [
+      31.2586,
+      36.7514,
+      34.4365,
+      39.3049
+     ],
+     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261103/TR-42.pmtiles",
+     "built": "2026-11-03"
+    },
+    {
+     "id": "TR-43",
+     "name": {
+      "tr": "Kütahya",
+      "en": "Kütahya"
+     },
+     "file": "TR-43.pmtiles",
+     "bytes": 18298416,
+     "sha256": "5ca154bdf7be25e42eef3a8705716dd19f1378eb49750b729f324ccd2a0b15b9",
+     "bbox": [
+      28.6086,
+      38.7914,
+      30.4462,
+      39.8789
+     ],
+     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261103/TR-43.pmtiles",
+     "built": "2026-11-03"
+    },
+    {
+     "id": "TR-39",
+     "name": {
+      "tr": "Kırklareli",
+      "en": "Kırklareli"
+     },
+     "file": "TR-39.pmtiles",
+     "bytes": 20248558,
+     "sha256": "1876f156e209e39fb8b8564010aca1c68837d79f4a6fff190c0bb1a69a6b10d4",
+     "bbox": [
+      26.8841,
+      41.2171,
+      28.1468,
+      42.1048
+     ],
+     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261103/TR-39.pmtiles",
+     "built": "2026-11-03"
+    },
+    {
+     "id": "TR-71",
+     "name": {
+      "tr": "Kırıkkale",
+      "en": "Kırıkkale"
+     },
+     "file": "TR-71.pmtiles",
+     "bytes": 5480881,
+     "sha256": "6170b701ccfa02d8b69978c8d23705b9e18899f186e6fba1f068bcdc963d4666",
+     "bbox": [
+      33.1861,
+      39.3952,
+      34.2081,
+      40.3349
+     ],
+     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261103/TR-71.pmtiles",
+     "built": "2026-11-03"
+    },
+    {
+     "id": "TR-40",
+     "name": {
+      "tr": "Kırşehir",
+      "en": "Kırşehir"
+     },
+     "file": "TR-40.pmtiles",
+     "bytes": 6534294,
+     "sha256": "793327c2bb6b18d3f23cf46756f0e464121c6a6895eea5f4e95bd51de12b3d16",
+     "bbox": [
+      33.4063,
+      38.8199,
+      34.7048,
+      39.7988
+     ],
+     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261103/TR-40.pmtiles",
+     "built": "2026-11-03"
+    },
+    {
+     "id": "TR-44",
+     "name": {
+      "tr": "Malatya",
+      "en": "Malatya"
+     },
+     "file": "TR-44.pmtiles",
+     "bytes": 18512156,
+     "sha256": "cbab894e5a6a368ffe170f3940573974d7215ac80786bd0862beb30329e69cdd",
+     "bbox": [
+      37.2608,
+      37.8666,
+      39.1514,
+      39.1528
+     ],
+     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261103/TR-44.pmtiles",
+     "built": "2026-11-03"
+    },
+    {
+     "id": "TR-45",
+     "name": {
+      "tr": "Manisa",
+      "en": "Manisa"
+     },
+     "file": "TR-45.pmtiles",
+     "bytes": 25618249,
+     "sha256": "ee0f286d0ebd27508dd7a56b2ad78e80efbaa7ae94e799ddddc89be544564970",
+     "bbox": [
+      27.1125,
+      38.0853,
+      29.1356,
+      39.4071
+     ],
+     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261103/TR-45.pmtiles",
+     "built": "2026-11-03"
+    },
+    {
+     "id": "TR-47",
+     "name": {
+      "tr": "Mardin",
+      "en": "Mardin"
+     },
+     "file": "TR-47.pmtiles",
+     "bytes": 15482811,
+     "sha256": "924eb1474988416a8f4a9f9737b291fd776b0d46654e4096281b0744179767fc",
+     "bbox": [
+      39.8848,
+      36.9114,
+      41.8972,
+      37.7364
+     ],
+     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261103/TR-47.pmtiles",
+     "built": "2026-11-03"
+    },
+    {
+     "id": "TR-33",
+     "name": {
+      "tr": "Mersin",
+      "en": "Mersin"
+     },
+     "file": "TR-33.pmtiles",
+     "bytes": 26718158,
+     "sha256": "2d2de61a412a149ac9d18e9eb454ad11bbc3f22612440c53f4ce27baff20f661",
+     "bbox": [
+      32.5109,
+      36.0168,
+      35.1516,
+      37.4356
+     ],
+     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261103/TR-33.pmtiles",
+     "built": "2026-11-03"
+    },
+    {
+     "id": "TR-48",
+     "name": {
+      "tr": "Muğla",
+      "en": "Muğla"
+     },
+     "file": "TR-48.pmtiles",
+     "bytes": 24526287,
+     "sha256": "ef2e388003bc41f7b537eae811e1a9ac023f0b3afcae669e1326a01a2d1cfe50",
+     "bbox": [
+      27.1495,
+      36.2932,
+      29.7718,
+      37.6007
+     ],
+     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261103/TR-48.pmtiles",
+     "built": "2026-11-03"
+    },
+    {
+     "id": "TR-49",
+     "name": {
+      "tr": "Muş",
+      "en": "Muş"
+     },
+     "file": "TR-49.pmtiles",
+     "bytes": 7170539,
+     "sha256": "b01dd9c20d43a9fc6c6503c7014d732d1488fe74905d265a0506e2381bdc8961",
+     "bbox": [
+      41.1045,
+      38.4833,
+      42.7126,
+      39.5382
+     ],
+     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261103/TR-49.pmtiles",
+     "built": "2026-11-03"
+    },
+    {
+     "id": "TR-50",
+     "name": {
+      "tr": "Nevşehir",
+      "en": "Nevşehir"
+     },
+     "file": "TR-50.pmtiles",
+     "bytes": 9909615,
+     "sha256": "31129b0fff9e6a91f08509a7daacee640695a69b986cff67afbb784f7b3c2ac2",
+     "bbox": [
+      34.2388,
+      38.2812,
+      35.1664,
+      39.3836
+     ],
+     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261103/TR-50.pmtiles",
+     "built": "2026-11-03"
+    },
+    {
+     "id": "TR-51",
+     "name": {
+      "tr": "Niğde",
+      "en": "Niğde"
+     },
+     "file": "TR-51.pmtiles",
+     "bytes": 8456245,
+     "sha256": "4184d10e2c2f7eff41b362f07408ea4f3e272ee38f3b92b4c8c985c10add4e97",
+     "bbox": [
+      33.9755,
+      37.3314,
+      35.3111,
+      38.3887
+     ],
+     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261103/TR-51.pmtiles",
+     "built": "2026-11-03"
+    },
+    {
+     "id": "TR-52",
+     "name": {
+      "tr": "Ordu",
+      "en": "Ordu"
+     },
+     "file": "TR-52.pmtiles",
+     "bytes": 19421073,
+     "sha256": "796c0e8cc1157e78de6872e21d3cdca4ed73cb891d2938d361d51c244b5441e4",
+     "bbox": [
+      36.6824,
+      40.3258,
+      38.116,
+      41.1476
+     ],
+     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261103/TR-52.pmtiles",
+     "built": "2026-11-03"
+    },
+    {
+     "id": "TR-80",
+     "name": {
+      "tr": "Osmaniye",
+      "en": "Osmaniye"
+     },
+     "file": "TR-80.pmtiles",
+     "bytes": 13831265,
+     "sha256": "f1e27b15e827f1d2b62aaf2ccc2a180d461041e9abb82c9ba9c9c5781618ee0e",
+     "bbox": [
+      35.8765,
+      36.9297,
+      36.6965,
+      37.7498
+     ],
+     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261103/TR-80.pmtiles",
+     "built": "2026-11-03"
+    },
+    {
+     "id": "TR-53",
+     "name": {
+      "tr": "Rize",
+      "en": "Rize"
+     },
+     "file": "TR-53.pmtiles",
+     "bytes": 12695088,
+     "sha256": "dd64e1bd4b1002c06e5d1161e26dca8f17894111e5738337172ee6bf6c970217",
+     "bbox": [
+      40.3298,
+      40.516,
+      41.3758,
+      41.3243
+     ],
+     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261103/TR-53.pmtiles",
+     "built": "2026-11-03"
+    },
+    {
+     "id": "TR-54",
+     "name": {
+      "tr": "Sakarya",
+      "en": "Sakarya"
+     },
+     "file": "TR-54.pmtiles",
+     "bytes": 15497569,
+     "sha256": "458ecde71d379d04179a8d53506752a4b14ea2c2047cf8d84413685faba84e37",
+     "bbox": [
+      29.967,
+      40.2861,
+      31.0125,
+      41.1792
+     ],
+     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261103/TR-54.pmtiles",
+     "built": "2026-11-03"
+    },
+    {
+     "id": "TR-55",
+     "name": {
+      "tr": "Samsun",
+      "en": "Samsun"
+     },
+     "file": "TR-55.pmtiles",
+     "bytes": 28777540,
+     "sha256": "05e6fb7cc7d9c118f1f5cf5b35c04d25d651a822897dafa013ef4f76b5e85de8",
+     "bbox": [
+      34.8787,
+      40.822,
+      37.1699,
+      41.7379
+     ],
+     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261103/TR-55.pmtiles",
+     "built": "2026-11-03"
+    },
+    {
+     "id": "TR-56",
+     "name": {
+      "tr": "Siirt",
+      "en": "Siirt"
+     },
+     "file": "TR-56.pmtiles",
+     "bytes": 7279304,
+     "sha256": "d659afcda36c07a13615c6eb42a6379a7683101c374c9698fd776462c07c2a84",
+     "bbox": [
+      41.3615,
+      37.5818,
+      42.8845,
+      38.2673
+     ],
+     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261103/TR-56.pmtiles",
+     "built": "2026-11-03"
+    },
+    {
+     "id": "TR-57",
+     "name": {
+      "tr": "Sinop",
+      "en": "Sinop"
+     },
+     "file": "TR-57.pmtiles",
+     "bytes": 13207290,
+     "sha256": "5170824bfa14aded7b3b29a5787c6ff01c09032d40268bdf63e22e49a4d85e91",
+     "bbox": [
+      34.2237,
+      41.202,
+      35.4783,
+      42.098
+     ],
+     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261103/TR-57.pmtiles",
+     "built": "2026-11-03"
+    },
+    {
+     "id": "TR-58",
+     "name": {
+      "tr": "Sivas",
+      "en": "Sivas"
+     },
+     "file": "TR-58.pmtiles",
+     "bytes": 28144903,
+     "sha256": "e72ad02485eba4c4b3dd6591529ea63106d8f66def26e81b0123087cd4f0cabd",
+     "bbox": [
+      35.8538,
+      38.5371,
+      38.7722,
+      40.5526
+     ],
+     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261103/TR-58.pmtiles",
+     "built": "2026-11-03"
+    },
+    {
+     "id": "TR-59",
+     "name": {
+      "tr": "Tekirdağ",
+      "en": "Tekirdağ"
+     },
+     "file": "TR-59.pmtiles",
+     "bytes": 26069343,
+     "sha256": "c6eb3c193f2ebeee1901284c8428521a23719efcdd465adce6ca9de028a96194",
+     "bbox": [
+      26.6933,
+      40.5383,
+      28.1443,
+      41.6097
+     ],
+     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261103/TR-59.pmtiles",
+     "built": "2026-11-03"
+    },
+    {
+     "id": "TR-60",
+     "name": {
+      "tr": "Tokat",
+      "en": "Tokat"
+     },
+     "file": "TR-60.pmtiles",
+     "bytes": 24276535,
+     "sha256": "f2db8d77bb44414ac75cf5ceffba562c20e7c5d66d498d7972ab5128c4b22c48",
+     "bbox": [
+      35.4326,
+      39.8932,
+      37.6654,
+      40.9103
+     ],
+     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261103/TR-60.pmtiles",
+     "built": "2026-11-03"
+    },
+    {
+     "id": "TR-61",
+     "name": {
+      "tr": "Trabzon",
+      "en": "Trabzon"
+     },
+     "file": "TR-61.pmtiles",
+     "bytes": 24607551,
+     "sha256": "f9dff731b83f2276ce306d1ac527507c802afc3ac5329895ebc5e415eb73d4c4",
+     "bbox": [
+      39.1233,
+      40.5135,
+      40.5075,
+      41.1077
+     ],
+     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261103/TR-61.pmtiles",
+     "built": "2026-11-03"
+    },
+    {
+     "id": "TR-62",
+     "name": {
+      "tr": "Tunceli",
+      "en": "Tunceli"
+     },
+     "file": "TR-62.pmtiles",
+     "bytes": 12155070,
+     "sha256": "b37193ef11af5fea5a1e49a0b2aed5af54a46465667b3a387b6840b1f6a8ecfb",
+     "bbox": [
+      38.7319,
+      38.7632,
+      40.4038,
+      39.615
+     ],
+     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261103/TR-62.pmtiles",
+     "built": "2026-11-03"
+    },
+    {
+     "id": "TR-64",
+     "name": {
+      "tr": "Uşak",
+      "en": "Uşak"
+     },
+     "file": "TR-64.pmtiles",
+     "bytes": 10242775,
+     "sha256": "129e11bd51c1eb6bcb2df0eeb814020b68eea707d324f7553969971df308f830",
+     "bbox": [
+      28.7544,
+      38.1659,
+      30.0341,
+      38.9354
+     ],
+     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261103/TR-64.pmtiles",
+     "built": "2026-11-03"
+    },
+    {
+     "id": "TR-65",
+     "name": {
+      "tr": "Van",
+      "en": "Van"
+     },
+     "file": "TR-65.pmtiles",
+     "bytes": 14454699,
+     "sha256": "60f6143d36c060fdda17e507d988d94558f7cc0c250cf2d5fc1368dab79651d0",
+     "bbox": [
+      42.6622,
+      37.7201,
+      44.5125,
+      39.371
+     ],
+     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261103/TR-65.pmtiles",
+     "built": "2026-11-03"
+    },
+    {
+     "id": "TR-77",
+     "name": {
+      "tr": "Yalova",
+      "en": "Yalova"
+     },
+     "file": "TR-77.pmtiles",
+     "bytes": 4263327,
+     "sha256": "755e68e4944a816bd75c349ae61efdcd6e26ad8136acd3e81ca857b5a866de0f",
+     "bbox": [
+      28.7805,
+      40.4562,
+      29.5583,
+      40.7431
+     ],
+     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261103/TR-77.pmtiles",
+     "built": "2026-11-03"
+    },
+    {
+     "id": "TR-66",
+     "name": {
+      "tr": "Yozgat",
+      "en": "Yozgat"
+     },
+     "file": "TR-66.pmtiles",
+     "bytes": 14894807,
+     "sha256": "c42fca23b4a6c647690313ebd0d55b5d6ffb366d8936bbbf8c3a3d01008aa4b7",
+     "bbox": [
+      34.0607,
+      38.986,
+      36.1683,
+      40.2551
+     ],
+     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261103/TR-66.pmtiles",
+     "built": "2026-11-03"
+    },
+    {
+     "id": "TR-67",
+     "name": {
+      "tr": "Zonguldak",
+      "en": "Zonguldak"
+     },
+     "file": "TR-67.pmtiles",
+     "bytes": 8614832,
+     "sha256": "804746a3094198396422359912c0ea2d65e4e4fdb8e7006f47bb0ee6048b94ca",
+     "bbox": [
+      31.293,
+      41.007,
+      32.2947,
+      41.5896
+     ],
+     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261103/TR-67.pmtiles",
+     "built": "2026-11-03"
+    },
+    {
+     "id": "TR-17",
+     "name": {
+      "tr": "Çanakkale",
+      "en": "Çanakkale"
+     },
+     "file": "TR-17.pmtiles",
+     "bytes": 23553445,
+     "sha256": "4bc46ab18c50ef49da54af6a820c08ea9ff67ec05d0e6b508a2d3db6b392f181",
+     "bbox": [
+      25.6654,
+      39.4533,
+      27.5487,
+      40.762
+     ],
+     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261103/TR-17.pmtiles",
+     "built": "2026-11-03"
+    },
+    {
+     "id": "TR-18",
+     "name": {
+      "tr": "Çankırı",
+      "en": "Çankırı"
+     },
+     "file": "TR-18.pmtiles",
+     "bytes": 10559953,
+     "sha256": "f150f0ad545c02c3d4256d83965f8bdf943a1e1c6441d1d943e837cff1760b28",
+     "bbox": [
+      32.5692,
+      40.2548,
+      34.1657,
+      41.0892
+     ],
+     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261103/TR-18.pmtiles",
+     "built": "2026-11-03"
+    },
+    {
+     "id": "TR-19",
+     "name": {
+      "tr": "Çorum",
+      "en": "Çorum"
+     },
+     "file": "TR-19.pmtiles",
+     "bytes": 16943248,
+     "sha256": "0487d441c2f98869dedf77bbec59c345d9c842a7ad3f1910014b74f67168c62f",
+     "bbox": [
+      33.9613,
+      39.9394,
+      35.5309,
+      41.3509
+     ],
+     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261103/TR-19.pmtiles",
+     "built": "2026-11-03"
+    },
+    {
+     "id": "TR-34",
+     "name": {
+      "tr": "İstanbul",
+      "en": "İstanbul"
+     },
+     "file": "TR-34.pmtiles",
+     "bytes": 66672361,
+     "sha256": "85a30e56fdfab9a7d36ee7d8ec1d8d11a4708e5b6a11e741d1259b050495dbd6",
+     "bbox": [
+      27.9708,
+      40.7907,
+      29.9588,
+      41.5906
+     ],
+     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261103/TR-34.pmtiles",
+     "built": "2026-11-03"
+    },
+    {
+     "id": "TR-35",
+     "name": {
+      "tr": "İzmir",
+      "en": "İzmir"
+     },
+     "file": "TR-35.pmtiles",
+     "bytes": 45611726,
+     "sha256": "71bf3181e66b574acbd0f9a6c679202cfc2a80751091fc44906ac0e98a1a3271",
+     "bbox": [
+      26.2081,
+      37.8152,
+      28.493,
+      39.3855
+     ],
+     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261103/TR-35.pmtiles",
+     "built": "2026-11-03"
+    },
+    {
+     "id": "TR-63",
+     "name": {
+      "tr": "Şanlıurfa",
+      "en": "Şanlıurfa"
+     },
+     "file": "TR-63.pmtiles",
+     "bytes": 27844513,
+     "sha256": "8862b50f3b0dd165ce689fa44252b7b257e5bfed04625b6fc1beb627fcd3bf67",
+     "bbox": [
+      37.8352,
+      36.6691,
+      40.2385,
+      38.0205
+     ],
+     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261103/TR-63.pmtiles",
+     "built": "2026-11-03"
+    },
+    {
+     "id": "TR-73",
+     "name": {
+      "tr": "Şırnak",
+      "en": "Şırnak"
+     },
+     "file": "TR-73.pmtiles",
+     "bytes": 10547005,
+     "sha256": "3226cf5612d658623332deab85ebe00da85eaf0b317f09b461e4d616333e078b",
+     "bbox": [
+      41.5455,
+      37.1053,
+      43.4992,
+      37.7698
+     ],
+     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261103/TR-73.pmtiles",
+     "built": "2026-11-03"
+    }
+   ]
+  },
+  {
+   "id": "DE",
+   "name": {
+    "tr": "Almanya",
+    "en": "Germany"
+   },
+   "available": false
+  },
+  {
+   "id": "GR",
+   "name": {
+    "tr": "Yunanistan",
+    "en": "Greece"
+   },
+   "available": false
+  },
+  {
+   "id": "BG",
+   "name": {
+    "tr": "Bulgaristan",
+    "en": "Bulgaria"
+   },
+   "available": false
+  },
+  {
+   "id": "GE",
+   "name": {
+    "tr": "Gürcistan",
+    "en": "Georgia"
+   },
+   "available": false
+  },
+  {
+   "id": "IT",
+   "name": {
+    "tr": "İtalya",
+    "en": "Italy"
+   },
+   "available": false
+  },
+  {
+   "id": "FR",
+   "name": {
+    "tr": "Fransa",
+    "en": "France"
+   },
+   "available": false
+  },
+  {
+   "id": "ES",
+   "name": {
+    "tr": "İspanya",
+    "en": "Spain"
+   },
+   "available": false
+  },
+  {
+   "id": "AT",
+   "name": {
+    "tr": "Avusturya",
+    "en": "Austria"
+   },
+   "available": false
+  },
+  {
+   "id": "CH",
+   "name": {
+    "tr": "İsviçre",
+    "en": "Switzerland"
+   },
+   "available": false
+  },
+  {
+   "id": "RO",
+   "name": {
+    "tr": "Romanya",
+    "en": "Romania"
+   },
+   "available": false
+  },
+  {
+   "id": "HR",
+   "name": {
+    "tr": "Hırvatistan",
+    "en": "Croatia"
+   },
+   "available": false
+  },
+  {
+   "id": "PT",
+   "name": {
+    "tr": "Portekiz",
+    "en": "Portugal"
+   },
+   "available": false
+  }
+ ]
 }
