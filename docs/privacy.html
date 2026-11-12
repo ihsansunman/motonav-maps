@@ -19,11 +19,10 @@
 
 <h2>Üçüncü taraf servisler</h2>
 <ul>
-<li><b>Yer arama:</b> arama metnin OpenStreetMap Nominatim servisine gönderilir.</li>
-<li><b>Rota:</b> başlangıç, ara noktalar ve hedef rota hesaplamak için rota servisine (kendi sunucumuz ya da FOSSGIS Valhalla) gönderilir.</li>
-<li><b>Harita dosyaları:</b> GitHub üzerinden indirilir.</li>
+<li><b>Yer arama ve rota:</b> telefonda, indirilen veriyle hesaplanır; arama metnin ve konumların hiçbir servise gönderilmez.</li>
+<li><b>Harita, rota, arama ve yükseklik dosyaları:</b> GitHub üzerinden indirilir (GitHub yalnızca indirme isteğini görür).</li>
 </ul>
-<p>Bu servisler isteği yalnızca yanıt vermek için işler; verini reklam ya da profilleme için paylaşmıyoruz. Reklam ve analiz kitaplığı kullanılmaz.</p>
+<p>Verini reklam ya da profilleme için paylaşmıyoruz. Reklam ve analiz kitaplığı kullanılmaz.</p>
 
 <h2>Silme ve haklar (KVKK)</h2>
 <p>Uygulamada Profil &gt; Hesabı sil ile hesabın ve Drive'daki MotoNav yedeği kalıcı olarak silinir. Hakkında &gt; Tüm verilerimi sil telefondaki verileri siler. Uygulamaya erişemiyorsan <a href="delete-account.html">hesap silme sayfasındaki</a> adımları izle ya da bize yaz.</p>
@@ -33,5 +32,5 @@
 
 <hr>
 <h1>MotoNav Privacy Policy (English)</h1>
-<p>MotoNav keeps no user data on its own servers. Rides, routes and garage records stay on your phone; if you sign in with Google they are backed up only to a hidden app folder in your own Google Drive (drive.appdata), which only MotoNav can read. Location is used for the map, navigation and ride recording; background location is used only to start recording automatically when your paired Bluetooth device connects. Optional Google sign-in uses Firebase Authentication. Place searches go to OpenStreetMap Nominatim and route points to the routing service (our server or FOSSGIS Valhalla); nothing is shared for advertising and no ads or analytics SDKs are used. Purchases are handled by Google Play. Delete your account and Drive backup in Profile &gt; Delete account, or see the <a href="delete-account.html">account deletion page</a>. Contact: <a href="mailto:ihsansunman@asnus.com">ihsansunman@asnus.com</a>. For users 18 and over.</p>
+<p>MotoNav keeps no user data on its own servers. Rides, routes and garage records stay on your phone; if you sign in with Google they are backed up only to a hidden app folder in your own Google Drive (drive.appdata), which only MotoNav can read. Location is used for the map, navigation and ride recording; background location is used only to start recording automatically when your paired Bluetooth device connects. Optional Google sign-in uses Firebase Authentication. Place search and routing run on your phone with downloaded data, so search text and route points are not sent to any service; map, routing, search and elevation files are downloaded from GitHub. Nothing is shared for advertising and no ads or analytics SDKs are used. Purchases are handled by Google Play. Delete your account and Drive backup in Profile &gt; Delete account, or see the <a href="delete-account.html">account deletion page</a>. Contact: <a href="mailto:ihsansunman@asnus.com">ihsansunman@asnus.com</a>. For users 18 and over.</p>
 </body></html>
