@@ -1533,6 +1533,18 @@
     "bytes": 43721236,
     "sha256": "a385ea9bb7e807efb4a757150e8840ac68b9250bffa8f5ed177ba3e829a72dd9",
     "built": "2026-11-12"
+   },
+   "elevation": {
+    "id": "TR-elevation",
+    "name": {
+     "tr": "Türkiye yükseklik verisi",
+     "en": "Turkey elevation data"
+    },
+    "file": "tr-elevation.bin.gz",
+    "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-elevation-20261113/tr-elevation.bin.gz",
+    "bytes": 110924818,
+    "sha256": "5796fd17fe66061b4880cbd92a7a6048b0dd2db0c964be65a9c83535d31b3e3f",
+    "built": "2026-11-13"
    }
   },
   {
