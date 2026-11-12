@@ -1509,7 +1509,19 @@
      "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261103/TR-73.pmtiles",
      "built": "2026-11-03"
     }
-   ]
+   ],
+   "routing": {
+    "id": "TR-routing",
+    "name": {
+     "tr": "Türkiye rota verisi",
+     "en": "Turkey routing data"
+    },
+    "file": "tr-routing.tar.gz",
+    "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-routing-20261111/tr-routing.tar.gz",
+    "bytes": 465287541,
+    "sha256": "a977531feac710e83299f096b9979e9e74024984d3420ec84681c691f3aa5ba1",
+    "built": "2026-11-11"
+   }
   },
   {
    "id": "DE",
