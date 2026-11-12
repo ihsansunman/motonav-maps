@@ -1530,8 +1530,8 @@
     },
     "file": "tr-search.sqlite.gz",
     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-search-20261112/tr-search.sqlite.gz",
-    "bytes": 43717096,
-    "sha256": "d30f34c3aaa6c6c87aeddc5c29c25dc5c937011cd762a31fde81d33cee1520d4",
+    "bytes": 43721236,
+    "sha256": "a385ea9bb7e807efb4a757150e8840ac68b9250bffa8f5ed177ba3e829a72dd9",
     "built": "2026-11-12"
    }
   },
