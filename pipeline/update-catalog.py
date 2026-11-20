@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
-"""regions.json'da Türkiye'nin harita (tamamı + iller), rota ve arama girdilerini aylık çıktıyla günceller.
+"""regions.json'da Türkiye'nin harita (tamamı + iller), rota (tek parça; ana yollar + il il) ve arama girdilerini
+aylık çıktıyla günceller.
 
 Kullanım: update-catalog.py <regions.json> <çalışma klasörü> <YYYYMMDD>. Yükseklik ve diğer ülkeler değişmez.
 """
@@ -32,10 +33,25 @@ def main(catalog_path, work, date):
     tr["whole"].update(whole)
     catalog["regions"][0].update(whole)  # 0.4.x uygulamalar (katalog v1)
     parts = json.load(open(os.path.join(work, "provinces", "parts.json")))
-    tr["parts"] = sorted(
-        ({**p, "url": f"{REPO}/tr-provinces-{date}/{p['file']}", "built": built} for p in parts),
-        key=lambda p: p["name"]["tr"],
-    )
+    split_path = os.path.join(work, "routing-split", "routing-parts.json")
+    split = json.load(open(split_path)) if os.path.exists(split_path) else {}
+    split_tag = f"tr-routing-split-{date}"
+
+    def split_entry(pack_id, names):
+        s = split[pack_id]
+        return {"id": pack_id, "name": names, "file": s["file"], "url": f"{REPO}/{split_tag}/{s['file']}",
+                "bytes": s["bytes"], "sha256": s["sha256"], "built": built}
+
+    def with_routing(p):
+        out = {**p, "url": f"{REPO}/tr-provinces-{date}/{p['file']}", "built": built}
+        rid = f"{p['id']}-routing"
+        if rid in split:
+            out["routing"] = split_entry(rid, {k: f"{v} rota verisi" if k == "tr" else f"{v} routing data" for k, v in p["name"].items()})
+        return out
+
+    tr["parts"] = sorted((with_routing(p) for p in parts), key=lambda p: p["name"]["tr"])
+    if "TR-routing-base" in split:
+        tr["routing_base"] = split_entry("TR-routing-base", {"tr": "Türkiye ana yollar rota verisi", "en": "Turkey main roads routing data"})
     tr["routing"].update(entry(os.path.join(work, "tr-routing.tar.gz"), f"tr-routing-{date}", built))
     tr["search"].update(entry(os.path.join(work, "tr-search.sqlite.gz"), f"tr-search-{date}", built))
     with open(catalog_path, "w") as f:

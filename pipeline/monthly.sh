@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # Aylık veri hattı (MotoNav docs/offline-all-plan.md): Türkiye haritası (il il PMTiles + tamamı), rota (Valhalla)
-# ve arama (SQLite FTS4) paketlerini üretir. Yayın: publish.sh. Yükseklik paketi (Copernicus) değişmediği için yok.
+# (tek parça + ana yollar ve il il) ve arama (SQLite FTS4) paketlerini üretir. Yayın: publish.sh. Yükseklik paketi (Copernicus) değişmediği için yok.
 # Kullanım: pipeline/monthly.sh <çalışma klasörü>   (GitHub Actions: .github/workflows/monthly.yml)
 set -euo pipefail
 HERE=$(cd "$(dirname "$0")" && pwd)
@@ -44,7 +44,10 @@ docker run --rm -v "$W":/w -w /w/valhalla "$VALHALLA_IMAGE" sh -ec '
 '
 sudo chown -R "$(id -u)" "$W/valhalla" 2>/dev/null || true
 rm -rf "$W/valhalla/tiles"
+# Eski düzen (0.6.x uygulamalar): ülkenin tamamı tek paket.
 gzip -9 -c "$W/valhalla/valhalla_tiles.tar" > "$W/tr-routing.tar.gz"
+# Yeni düzen: ana yollar + il paketleri (docs/routing-split.md); il kutuları harita parçalarından.
+python3 "$HERE/split-routing.py" "$W/valhalla/valhalla_tiles.tar" "$W/provinces/parts.json" "$W/routing-split" TR
 rm -f "$W/valhalla/valhalla_tiles.tar"
 end
 
@@ -63,5 +66,6 @@ rm -f "$W/turkey.osm.pbf"
   for f in "$W/tr-$DATE.pmtiles" "$W/tr-routing.tar.gz" "$W/tr-search.sqlite.gz"; do
     echo "| $(basename "$f") | $(du -h "$f" | cut -f1) |"
   done
+  echo "| il rota paketleri ($(ls "$W"/routing-split/*-routing.tar.gz | wc -l)) + ana yollar | $(du -ch "$W"/routing-split/*.tar.gz | tail -1 | cut -f1) |"
   echo "| il dosyaları ($(ls "$W"/provinces/*.pmtiles | wc -l)) | $(du -ch "$W"/provinces/*.pmtiles | tail -1 | cut -f1) |"
 } | tee -a "${GITHUB_STEP_SUMMARY:-/dev/null}"

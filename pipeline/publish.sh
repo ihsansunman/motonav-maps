@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# monthly.sh çıktısını yayınlar: Release'ler (tr-, tr-provinces-, tr-routing-, tr-search-<tarih>) ve regions.json.
+# monthly.sh çıktısını yayınlar: Release'ler (tr-, tr-provinces-, tr-routing-, tr-routing-split-, tr-search-<tarih>) ve regions.json.
 # Aynı gün yeniden çalışırsa var olan Release'e üzerine yazarak yükler. Gerekli: gh (GH_TOKEN), git.
 set -euo pipefail
 HERE=$(cd "$(dirname "$0")" && pwd)
@@ -16,6 +16,7 @@ release() { # etiket başlık dosyalar...
 release "tr-$DATE" "Türkiye $BUILT" "$W/tr-$DATE.pmtiles"
 release "tr-provinces-$DATE" "Türkiye il il ($BUILT)" "$W"/provinces/TR-*.pmtiles
 release "tr-routing-$DATE" "Türkiye rota verisi $BUILT (Valhalla 3.9.0)" "$W/tr-routing.tar.gz"
+release "tr-routing-split-$DATE" "Türkiye il il rota verisi $BUILT" "$W"/routing-split/*.tar.gz
 release "tr-search-$DATE" "Türkiye arama dizini $BUILT" "$W/tr-search.sqlite.gz"
 
 python3 "$HERE/update-catalog.py" "$HERE/../regions.json" "$W" "$DATE"
