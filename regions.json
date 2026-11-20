@@ -7,10 +7,10 @@
     "tr": "Türkiye",
     "en": "Turkey"
    },
-   "file": "tr-20261103.pmtiles",
-   "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-20261103/tr-20261103.pmtiles",
-   "bytes": 1656130887,
-   "sha256": "c4251cfcaede4ea2b47d54db85f5db40fffc75790239349074059e656933a6ad",
+   "file": "tr-20261120.pmtiles",
+   "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-20261120/tr-20261120.pmtiles",
+   "bytes": 1658915562,
+   "sha256": "3f3c787264ca398df9804129fa5bd30072b698973d43c5e396aa807581a7cc9d",
    "bbox": [
     25.5,
     35.7,
@@ -18,7 +18,7 @@
     42.2
    ],
    "maxZoom": 15,
-   "built": "2026-11-03"
+   "built": "2026-11-20"
   }
  ],
  "countries": [
@@ -30,17 +30,17 @@
    },
    "available": true,
    "whole": {
-    "file": "tr-20261103.pmtiles",
-    "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-20261103/tr-20261103.pmtiles",
-    "bytes": 1656130887,
-    "sha256": "c4251cfcaede4ea2b47d54db85f5db40fffc75790239349074059e656933a6ad",
+    "file": "tr-20261120.pmtiles",
+    "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-20261120/tr-20261120.pmtiles",
+    "bytes": 1658915562,
+    "sha256": "3f3c787264ca398df9804129fa5bd30072b698973d43c5e396aa807581a7cc9d",
     "bbox": [
      25.5,
      35.7,
      45.0,
      42.2
     ],
-    "built": "2026-11-03",
+    "built": "2026-11-20",
     "id": "TR",
     "name": {
      "tr": "Türkiye",
@@ -55,16 +55,28 @@
       "en": "Adana"
      },
      "file": "TR-01.pmtiles",
-     "bytes": 30007066,
-     "sha256": "640e9a6bea9c5383e38636c1e7b4a22e27110c7800b50deefcdb02c40385c872",
+     "bytes": 30201652,
+     "sha256": "adb3823b13be2ca1111ff7171db5e947d3bcd19e5452f5e2fbc0a75dc97fa2d9",
      "bbox": [
       34.7697,
       36.5388,
       36.4096,
       38.4046
      ],
-     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261103/TR-01.pmtiles",
-     "built": "2026-11-03"
+     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261120/TR-01.pmtiles",
+     "built": "2026-11-20",
+     "routing": {
+      "id": "TR-01-routing",
+      "name": {
+       "tr": "Adana rota verisi",
+       "en": "Adana routing data"
+      },
+      "file": "TR-01-routing.tar.gz",
+      "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-routing-split-20261120/TR-01-routing.tar.gz",
+      "bytes": 17635262,
+      "sha256": "f193b324cad1c4cbfda0b5834252ba6c9dee3939331785add1d75918a4dadab6",
+      "built": "2026-11-20"
+     }
     },
     {
      "id": "TR-02",
@@ -73,16 +85,28 @@
       "en": "Adıyaman"
      },
      "file": "TR-02.pmtiles",
-     "bytes": 14407891,
-     "sha256": "70d14e18e5a1f2410ae838adcfbc017fc6480d5f3f483db874f6a4c97d6fef39",
+     "bytes": 14424854,
+     "sha256": "8c7b5628e8537541a0442fcf981bdcef4d7ac2620a9227c0f3961cd872e845de",
      "bbox": [
       37.436,
       37.4097,
       39.2633,
       38.2101
      ],
-     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261103/TR-02.pmtiles",
-     "built": "2026-11-03"
+     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261120/TR-02.pmtiles",
+     "built": "2026-11-20",
+     "routing": {
+      "id": "TR-02-routing",
+      "name": {
+       "tr": "Adıyaman rota verisi",
+       "en": "Adıyaman routing data"
+      },
+      "file": "TR-02-routing.tar.gz",
+      "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-routing-split-20261120/TR-02-routing.tar.gz",
+      "bytes": 8738173,
+      "sha256": "e7e8c209520d6fa24df12f7a393a0deb2f7c020fb7aeef60e95e64a141c05b59",
+      "built": "2026-11-20"
+     }
     },
     {
      "id": "TR-03",
@@ -91,16 +115,28 @@
       "en": "Afyonkarahisar"
      },
      "file": "TR-03.pmtiles",
-     "bytes": 17658983,
-     "sha256": "461565e90ee7c5b52a9bb032ba025f198c0450bda68827338649718a29c129a5",
+     "bytes": 17744364,
+     "sha256": "2d397942580a0d3724c407d72ce76a4b10563ba19bec69ce67d319e20b45c16a",
      "bbox": [
       29.6589,
       37.7775,
       31.732,
       39.267
      ],
-     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261103/TR-03.pmtiles",
-     "built": "2026-11-03"
+     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261120/TR-03.pmtiles",
+     "built": "2026-11-20",
+     "routing": {
+      "id": "TR-03-routing",
+      "name": {
+       "tr": "Afyonkarahisar rota verisi",
+       "en": "Afyonkarahisar routing data"
+      },
+      "file": "TR-03-routing.tar.gz",
+      "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-routing-split-20261120/TR-03-routing.tar.gz",
+      "bytes": 13907857,
+      "sha256": "37585bc6d0518c8758ec13469fcc52f6b5de4ab5710f42307042f6f7be5f65d2",
+      "built": "2026-11-20"
+     }
     },
     {
      "id": "TR-68",
@@ -109,16 +145,28 @@
       "en": "Aksaray"
      },
      "file": "TR-68.pmtiles",
-     "bytes": 7842787,
-     "sha256": "8b5312594cb4772429f0794a4b4e9255341b09a58e34967ff9bd36f99f074694",
+     "bytes": 7848507,
+     "sha256": "20817ae6e8f751dc5fca3d24a5a23225d2cf65a0481f9764d8eda3bd916337b1",
      "bbox": [
       33.1712,
       37.9799,
       34.5006,
       39.0509
      ],
-     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261103/TR-68.pmtiles",
-     "built": "2026-11-03"
+     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261120/TR-68.pmtiles",
+     "built": "2026-11-20",
+     "routing": {
+      "id": "TR-68-routing",
+      "name": {
+       "tr": "Aksaray rota verisi",
+       "en": "Aksaray routing data"
+      },
+      "file": "TR-68-routing.tar.gz",
+      "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-routing-split-20261120/TR-68-routing.tar.gz",
+      "bytes": 6974728,
+      "sha256": "f27d8d59fc099ff17472377edd9e27631ed59cb1ecf59146651db0f4dcf37360",
+      "built": "2026-11-20"
+     }
     },
     {
      "id": "TR-05",
@@ -127,16 +175,28 @@
       "en": "Amasya"
      },
      "file": "TR-05.pmtiles",
-     "bytes": 12256248,
-     "sha256": "dc9725a34d2ac585c127a08a89c4de930bc1828dfffabc6808f7f519c15849d6",
+     "bytes": 12276584,
+     "sha256": "240524913398a31a6274faac32fc7aca7f31df735209f74dc84c62251a5404f0",
      "bbox": [
       34.9788,
       40.233,
       36.5122,
       41.0776
      ],
-     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261103/TR-05.pmtiles",
-     "built": "2026-11-03"
+     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261120/TR-05.pmtiles",
+     "built": "2026-11-20",
+     "routing": {
+      "id": "TR-05-routing",
+      "name": {
+       "tr": "Amasya rota verisi",
+       "en": "Amasya routing data"
+      },
+      "file": "TR-05-routing.tar.gz",
+      "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-routing-split-20261120/TR-05-routing.tar.gz",
+      "bytes": 9118266,
+      "sha256": "09db314436f481f0a0c9efd0c407f8201afe7e6741d0b8a9e9840266a61dd62b",
+      "built": "2026-11-20"
+     }
     },
     {
      "id": "TR-06",
@@ -145,16 +205,28 @@
       "en": "Ankara"
      },
      "file": "TR-06.pmtiles",
-     "bytes": 50192707,
-     "sha256": "0581abcb90dc23bc018fa7e4db54ce6bb3a70bfbad2e9718a46cb5a4eb4a5d56",
+     "bytes": 50254620,
+     "sha256": "9c2d9e35cc00430100c8ec0fb0bf4bd9a245e034fb285ad71e6123f08f5b78ce",
      "bbox": [
       30.8361,
       38.6619,
       33.8852,
       40.7539
      ],
-     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261103/TR-06.pmtiles",
-     "built": "2026-11-03"
+     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261120/TR-06.pmtiles",
+     "built": "2026-11-20",
+     "routing": {
+      "id": "TR-06-routing",
+      "name": {
+       "tr": "Ankara rota verisi",
+       "en": "Ankara routing data"
+      },
+      "file": "TR-06-routing.tar.gz",
+      "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-routing-split-20261120/TR-06-routing.tar.gz",
+      "bytes": 28177567,
+      "sha256": "8c69c08063047bde6573483e23c7c0fec3901aff9abcf30490d8cbb61acb7ef1",
+      "built": "2026-11-20"
+     }
     },
     {
      "id": "TR-07",
@@ -163,16 +235,28 @@
       "en": "Antalya"
      },
      "file": "TR-07.pmtiles",
-     "bytes": 43407391,
-     "sha256": "cf1963f9ad175eb7ea912c87ad934e8376b45b156597bfc2ef9901bcf5c5c26b",
+     "bytes": 43506881,
+     "sha256": "4ac64efbd32615c95c19470ab65fa88b1ceb65cfdb4c38c62f9160528c50d2d8",
      "bbox": [
       29.262,
       36.0935,
       32.6236,
       37.4261
      ],
-     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261103/TR-07.pmtiles",
-     "built": "2026-11-03"
+     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261120/TR-07.pmtiles",
+     "built": "2026-11-20",
+     "routing": {
+      "id": "TR-07-routing",
+      "name": {
+       "tr": "Antalya rota verisi",
+       "en": "Antalya routing data"
+      },
+      "file": "TR-07-routing.tar.gz",
+      "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-routing-split-20261120/TR-07-routing.tar.gz",
+      "bytes": 16886800,
+      "sha256": "5fd5045b05fcaed82864b0faf89535c15f51fccdbdf3a785aeac6eb8c9073093",
+      "built": "2026-11-20"
+     }
     },
     {
      "id": "TR-75",
@@ -181,16 +265,28 @@
       "en": "Ardahan"
      },
      "file": "TR-75.pmtiles",
-     "bytes": 6224425,
-     "sha256": "684150ce9e91599ab26650a7e12859bbcb1997659ad22a0b24e31bbf07d3250c",
+     "bytes": 6224804,
+     "sha256": "60e2b3cddcc9b9835106a049bf659420786915f238b4eb406e9c9c3f199cb6ab",
      "bbox": [
       42.3159,
       40.6292,
       43.4741,
       41.6002
      ],
-     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261103/TR-75.pmtiles",
-     "built": "2026-11-03"
+     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261120/TR-75.pmtiles",
+     "built": "2026-11-20",
+     "routing": {
+      "id": "TR-75-routing",
+      "name": {
+       "tr": "Ardahan rota verisi",
+       "en": "Ardahan routing data"
+      },
+      "file": "TR-75-routing.tar.gz",
+      "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-routing-split-20261120/TR-75-routing.tar.gz",
+      "bytes": 1223523,
+      "sha256": "13ea6dcc3665dc66a561d27086fd36804f0adc9bd3295596ce7afcab6f034d2a",
+      "built": "2026-11-20"
+     }
     },
     {
      "id": "TR-08",
@@ -199,16 +295,28 @@
       "en": "Artvin"
      },
      "file": "TR-08.pmtiles",
-     "bytes": 14730744,
-     "sha256": "2e2a5c3f8d970965ea7f53585e62c234f30b3dd476ad3a13f57ad2bf6379a610",
+     "bytes": 14745999,
+     "sha256": "76fb19cb54c9651f4031e13edef13cfc90fee7a606f8909fa3e7e5a2583be9cf",
      "bbox": [
       41.1293,
       40.5572,
       42.5916,
       41.5245
      ],
-     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261103/TR-08.pmtiles",
-     "built": "2026-11-03"
+     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261120/TR-08.pmtiles",
+     "built": "2026-11-20",
+     "routing": {
+      "id": "TR-08-routing",
+      "name": {
+       "tr": "Artvin rota verisi",
+       "en": "Artvin routing data"
+      },
+      "file": "TR-08-routing.tar.gz",
+      "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-routing-split-20261120/TR-08-routing.tar.gz",
+      "bytes": 2339337,
+      "sha256": "ac21ccba20233d976fbfc486b48763095ce410ed94a60a8dd11ace6cacd3c20f",
+      "built": "2026-11-20"
+     }
     },
     {
      "id": "TR-09",
@@ -217,16 +325,28 @@
       "en": "Aydın"
      },
      "file": "TR-09.pmtiles",
-     "bytes": 15877517,
-     "sha256": "626974ef3cab6cc6613917436fff04bbb646ddccb8fa73c12779778295114d38",
+     "bytes": 15889719,
+     "sha256": "35c29d707ba5f024100586591f6866f2864f2056fc297429773371f0293c6b11",
      "bbox": [
       26.9999,
       37.3229,
       28.9045,
       38.1293
      ],
-     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261103/TR-09.pmtiles",
-     "built": "2026-11-03"
+     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261120/TR-09.pmtiles",
+     "built": "2026-11-20",
+     "routing": {
+      "id": "TR-09-routing",
+      "name": {
+       "tr": "Aydın rota verisi",
+       "en": "Aydın routing data"
+      },
+      "file": "TR-09-routing.tar.gz",
+      "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-routing-split-20261120/TR-09-routing.tar.gz",
+      "bytes": 9688294,
+      "sha256": "e47b9f6b1fdb5705dfecd503a2565a00272bf7fa78c59dae07f68348f4ce40c6",
+      "built": "2026-11-20"
+     }
     },
     {
      "id": "TR-04",
@@ -235,16 +355,28 @@
       "en": "Ağrı"
      },
      "file": "TR-04.pmtiles",
-     "bytes": 8847008,
-     "sha256": "f8d1b16df299b5d17caa14bb94ea4e285b93653433f5e35c0ceb851d005856e3",
+     "bytes": 8849261,
+     "sha256": "b5ba4d0f7897283ca6e4c0bcf2a9a33462c4800934401c44d880bc2a01a7b597",
      "bbox": [
       42.279,
       38.9308,
       44.4871,
       40.0023
      ],
-     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261103/TR-04.pmtiles",
-     "built": "2026-11-03"
+     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261120/TR-04.pmtiles",
+     "built": "2026-11-20",
+     "routing": {
+      "id": "TR-04-routing",
+      "name": {
+       "tr": "Ağrı rota verisi",
+       "en": "Ağrı routing data"
+      },
+      "file": "TR-04-routing.tar.gz",
+      "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-routing-split-20261120/TR-04-routing.tar.gz",
+      "bytes": 3912269,
+      "sha256": "b349d979da245c6d03edd0610264ab5d60f8fe58f578960fb23f75555a2abacd",
+      "built": "2026-11-20"
+     }
     },
     {
      "id": "TR-10",
@@ -253,16 +385,28 @@
       "en": "Balıkesir"
      },
      "file": "TR-10.pmtiles",
-     "bytes": 43990386,
-     "sha256": "aa01e2ec79ba15165b63f064c96765b134ae942d669932678f4fac93eedaedfd",
+     "bytes": 44091925,
+     "sha256": "6f948027b95053740be5613262d5f0e04d3b83b52147814b45332ce9f80ecbaf",
      "bbox": [
       26.5253,
       39.072,
       28.9995,
       40.6684
      ],
-     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261103/TR-10.pmtiles",
-     "built": "2026-11-03"
+     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261120/TR-10.pmtiles",
+     "built": "2026-11-20",
+     "routing": {
+      "id": "TR-10-routing",
+      "name": {
+       "tr": "Balıkesir rota verisi",
+       "en": "Balıkesir routing data"
+      },
+      "file": "TR-10-routing.tar.gz",
+      "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-routing-split-20261120/TR-10-routing.tar.gz",
+      "bytes": 18891968,
+      "sha256": "92f6758d4e2b0ddff9072173a93e7d4723c343dee87d0c38a8b3275c70c49841",
+      "built": "2026-11-20"
+     }
     },
     {
      "id": "TR-74",
@@ -271,16 +415,28 @@
       "en": "Bartın"
      },
      "file": "TR-74.pmtiles",
-     "bytes": 6221674,
-     "sha256": "4477c23dc03dd1b7314ab08b83029e3e90a9ce0abb2b547ff506ffc7e4438233",
+     "bytes": 6226183,
+     "sha256": "7ae9347f8b9411ba7e9772557ac0024e2dee6c5646d054d4b37a2f2f0cb96d6a",
      "bbox": [
       32.0951,
       41.3029,
       32.939,
       41.8491
      ],
-     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261103/TR-74.pmtiles",
-     "built": "2026-11-03"
+     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261120/TR-74.pmtiles",
+     "built": "2026-11-20",
+     "routing": {
+      "id": "TR-74-routing",
+      "name": {
+       "tr": "Bartın rota verisi",
+       "en": "Bartın routing data"
+      },
+      "file": "TR-74-routing.tar.gz",
+      "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-routing-split-20261120/TR-74-routing.tar.gz",
+      "bytes": 1784649,
+      "sha256": "e081953e4b3d48ea2aa7efb31ab376595c53cb6d4dbdf2ad1b043dfa50cc8049",
+      "built": "2026-11-20"
+     }
     },
     {
      "id": "TR-72",
@@ -289,16 +445,28 @@
       "en": "Batman"
      },
      "file": "TR-72.pmtiles",
-     "bytes": 12053356,
-     "sha256": "4a238ba840bb0988c79395318012673c746ee3c6515f0b6086fa38e06fb08856",
+     "bytes": 12067615,
+     "sha256": "6ffe5a26f8ccf8039ee347433b769ec5eeaa249c3b5fc923b5297a6286b81884",
      "bbox": [
       40.9864,
       37.4936,
       41.8214,
       38.5509
      ],
-     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261103/TR-72.pmtiles",
-     "built": "2026-11-03"
+     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261120/TR-72.pmtiles",
+     "built": "2026-11-20",
+     "routing": {
+      "id": "TR-72-routing",
+      "name": {
+       "tr": "Batman rota verisi",
+       "en": "Batman routing data"
+      },
+      "file": "TR-72-routing.tar.gz",
+      "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-routing-split-20261120/TR-72-routing.tar.gz",
+      "bytes": 4150465,
+      "sha256": "ea23db31e02c81fa5da14472b8aabf71597b4c252c1c2151579fa961e6e115e0",
+      "built": "2026-11-20"
+     }
     },
     {
      "id": "TR-69",
@@ -307,16 +475,28 @@
       "en": "Bayburt"
      },
      "file": "TR-69.pmtiles",
-     "bytes": 4744072,
-     "sha256": "022316c5d10cc832acf369280d811f9c71f083b5dc21d2e155d61530f1b6de97",
+     "bytes": 4744545,
+     "sha256": "173da1f238e3094730155630e97b8c29cba847738c6df751a2e3371cdc92c598",
      "bbox": [
       39.663,
       39.9307,
       40.7111,
       40.5684
      ],
-     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261103/TR-69.pmtiles",
-     "built": "2026-11-03"
+     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261120/TR-69.pmtiles",
+     "built": "2026-11-20",
+     "routing": {
+      "id": "TR-69-routing",
+      "name": {
+       "tr": "Bayburt rota verisi",
+       "en": "Bayburt routing data"
+      },
+      "file": "TR-69-routing.tar.gz",
+      "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-routing-split-20261120/TR-69-routing.tar.gz",
+      "bytes": 2501028,
+      "sha256": "c35415269b914e377641ec521ac60c9249231d487b35ee7f0e801bcf84f2c466",
+      "built": "2026-11-20"
+     }
     },
     {
      "id": "TR-11",
@@ -325,16 +505,28 @@
       "en": "Bilecik"
      },
      "file": "TR-11.pmtiles",
-     "bytes": 10336461,
-     "sha256": "e450e3af6507ec2647a5ac6181196567ff045921de04ec6900daabd6d51b8d6e",
+     "bytes": 10348002,
+     "sha256": "58e726a5ec277aff2e6db8b31455d8e96a1e2ae737738c49c47e76332cc6fc35",
      "bbox": [
       29.7206,
       39.66,
       30.6624,
       40.5514
      ],
-     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261103/TR-11.pmtiles",
-     "built": "2026-11-03"
+     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261120/TR-11.pmtiles",
+     "built": "2026-11-20",
+     "routing": {
+      "id": "TR-11-routing",
+      "name": {
+       "tr": "Bilecik rota verisi",
+       "en": "Bilecik routing data"
+      },
+      "file": "TR-11-routing.tar.gz",
+      "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-routing-split-20261120/TR-11-routing.tar.gz",
+      "bytes": 9897140,
+      "sha256": "ee533c9233a02459991c61aae1eb61f1e7846737472d4a7d3f4fa645b60f085e",
+      "built": "2026-11-20"
+     }
     },
     {
      "id": "TR-12",
@@ -343,16 +535,28 @@
       "en": "Bingöl"
      },
      "file": "TR-12.pmtiles",
-     "bytes": 8324916,
-     "sha256": "1a35f2273389bea3002f319948e64d9e42284cb57ce4cd129bd45d15642c7cbe",
+     "bytes": 8328223,
+     "sha256": "8056b5a0c2b489d1546561063847440cf6c354bd62c0545da2b6a061e122fec7",
      "bbox": [
       39.9346,
       38.4767,
       41.266,
       39.565
      ],
-     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261103/TR-12.pmtiles",
-     "built": "2026-11-03"
+     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261120/TR-12.pmtiles",
+     "built": "2026-11-20",
+     "routing": {
+      "id": "TR-12-routing",
+      "name": {
+       "tr": "Bingöl rota verisi",
+       "en": "Bingöl routing data"
+      },
+      "file": "TR-12-routing.tar.gz",
+      "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-routing-split-20261120/TR-12-routing.tar.gz",
+      "bytes": 2910401,
+      "sha256": "4a319d3982056df7d92bd2f8c85496b37b067b37fb4e9a6135bfc7a5a15290b5",
+      "built": "2026-11-20"
+     }
     },
     {
      "id": "TR-13",
@@ -361,16 +565,28 @@
       "en": "Bitlis"
      },
      "file": "TR-13.pmtiles",
-     "bytes": 7342783,
-     "sha256": "6c93b5252acef6dc42eca0b17c3857ff8f676c6fe1fa136fff6944a2d2246755",
+     "bytes": 7344526,
+     "sha256": "71a3148d027b0c84dd3cd777b6c14b0272cbf115c964834b320cc1d4aa0598ed",
      "bbox": [
       41.4937,
       37.9692,
       43.1991,
       39.0241
      ],
-     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261103/TR-13.pmtiles",
-     "built": "2026-11-03"
+     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261120/TR-13.pmtiles",
+     "built": "2026-11-20",
+     "routing": {
+      "id": "TR-13-routing",
+      "name": {
+       "tr": "Bitlis rota verisi",
+       "en": "Bitlis routing data"
+      },
+      "file": "TR-13-routing.tar.gz",
+      "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-routing-split-20261120/TR-13-routing.tar.gz",
+      "bytes": 3347083,
+      "sha256": "a86f27464b4e14bdb7f515ad2e476510273e091069a809414fdab9ec8c75721d",
+      "built": "2026-11-20"
+     }
     },
     {
      "id": "TR-14",
@@ -379,16 +595,28 @@
       "en": "Bolu"
      },
      "file": "TR-14.pmtiles",
-     "bytes": 15647800,
-     "sha256": "8e5ba75f81d9c082170a0c904548f4042cb43f8519a497977d0c8736c738009b",
+     "bytes": 15657801,
+     "sha256": "0b017bdd845845a4b951af843d7d37c8274494066e39fcb0d5d693a6f3e9434f",
      "bbox": [
       30.5648,
       40.0979,
       32.5958,
       41.0487
      ],
-     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261103/TR-14.pmtiles",
-     "built": "2026-11-03"
+     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261120/TR-14.pmtiles",
+     "built": "2026-11-20",
+     "routing": {
+      "id": "TR-14-routing",
+      "name": {
+       "tr": "Bolu rota verisi",
+       "en": "Bolu routing data"
+      },
+      "file": "TR-14-routing.tar.gz",
+      "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-routing-split-20261120/TR-14-routing.tar.gz",
+      "bytes": 9282897,
+      "sha256": "29f21d58bfd4ca940947f82b3a2ed66d753f74cd6fed420ae42eaf878ddb5b44",
+      "built": "2026-11-20"
+     }
     },
     {
      "id": "TR-15",
@@ -397,16 +625,28 @@
       "en": "Burdur"
      },
      "file": "TR-15.pmtiles",
-     "bytes": 8062795,
-     "sha256": "24e8e6b659147e424b7d04856405c0f6688e4e163a098d706c24c785206bb7d0",
+     "bytes": 8063993,
+     "sha256": "5aef6e8828d16a51932ea405dd3d3236dac6e783ff79ce806e6c3f4f660afade",
      "bbox": [
       29.3257,
       36.7982,
       30.9138,
       37.8462
      ],
-     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261103/TR-15.pmtiles",
-     "built": "2026-11-03"
+     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261120/TR-15.pmtiles",
+     "built": "2026-11-20",
+     "routing": {
+      "id": "TR-15-routing",
+      "name": {
+       "tr": "Burdur rota verisi",
+       "en": "Burdur routing data"
+      },
+      "file": "TR-15-routing.tar.gz",
+      "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-routing-split-20261120/TR-15-routing.tar.gz",
+      "bytes": 11523599,
+      "sha256": "1b93740985372564ab0571e635e3d0d60b37e01e4c892cfeb331d0866d900de2",
+      "built": "2026-11-20"
+     }
     },
     {
      "id": "TR-16",
@@ -415,16 +655,28 @@
       "en": "Bursa"
      },
      "file": "TR-16.pmtiles",
-     "bytes": 34441402,
-     "sha256": "82a94080e9ea68b72e57b7baad860e5c1596936d0dc845f47bad15dbd81c6684",
+     "bytes": 34573181,
+     "sha256": "373dbd159fcbe96d217bf80be2379eb8b2f4e66d32d6207a7a6389bec562a3e9",
      "bbox": [
       28.1069,
       39.5935,
       29.91,
       40.6144
      ],
-     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261103/TR-16.pmtiles",
-     "built": "2026-11-03"
+     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261120/TR-16.pmtiles",
+     "built": "2026-11-20",
+     "routing": {
+      "id": "TR-16-routing",
+      "name": {
+       "tr": "Bursa rota verisi",
+       "en": "Bursa routing data"
+      },
+      "file": "TR-16-routing.tar.gz",
+      "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-routing-split-20261120/TR-16-routing.tar.gz",
+      "bytes": 14406572,
+      "sha256": "09656abf7b2772be90eb2cb8b06ba2d8ba6af9b69742bc5dff94362a3c4cd225",
+      "built": "2026-11-20"
+     }
     },
     {
      "id": "TR-20",
@@ -433,16 +685,28 @@
       "en": "Denizli"
      },
      "file": "TR-20.pmtiles",
-     "bytes": 20206575,
-     "sha256": "c6a038a3621c92e93125a28c7c9d26817773af60518493d9180740f6efe9bc25",
+     "bytes": 20215414,
+     "sha256": "0b71b6a4fd0eb0a52773f8e2d7a585572132be2a573d832d6ae01a1f513333a8",
      "bbox": [
       28.569,
       36.8823,
       30.093,
       38.4741
      ],
-     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261103/TR-20.pmtiles",
-     "built": "2026-11-03"
+     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261120/TR-20.pmtiles",
+     "built": "2026-11-20",
+     "routing": {
+      "id": "TR-20-routing",
+      "name": {
+       "tr": "Denizli rota verisi",
+       "en": "Denizli routing data"
+      },
+      "file": "TR-20-routing.tar.gz",
+      "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-routing-split-20261120/TR-20-routing.tar.gz",
+      "bytes": 9814828,
+      "sha256": "8c76b63f97d66e37273cdaa151e96b37fbcbfbfb70f3662676e5809218ed37cc",
+      "built": "2026-11-20"
+     }
     },
     {
      "id": "TR-21",
@@ -451,16 +715,28 @@
       "en": "Diyarbakır"
      },
      "file": "TR-21.pmtiles",
-     "bytes": 31774117,
-     "sha256": "2469b25236c45f706cf45281ddac82f40d95e604a0c92bbce6776e2ae29e4930",
+     "bytes": 31814243,
+     "sha256": "3fc070d9f891d281f1ce4085cfe7f79400f42d0214869fc16bda1c0ab7b40b69",
      "bbox": [
       39.1065,
       37.5064,
       41.3666,
       38.7146
      ],
-     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261103/TR-21.pmtiles",
-     "built": "2026-11-03"
+     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261120/TR-21.pmtiles",
+     "built": "2026-11-20",
+     "routing": {
+      "id": "TR-21-routing",
+      "name": {
+       "tr": "Diyarbakır rota verisi",
+       "en": "Diyarbakır routing data"
+      },
+      "file": "TR-21-routing.tar.gz",
+      "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-routing-split-20261120/TR-21-routing.tar.gz",
+      "bytes": 9809613,
+      "sha256": "eba9ce15735bbcc6fb392406d2a12293f7c8a29cb3d80616e2a9c2426e03eda8",
+      "built": "2026-11-20"
+     }
     },
     {
      "id": "TR-81",
@@ -469,16 +745,28 @@
       "en": "Düzce"
      },
      "file": "TR-81.pmtiles",
-     "bytes": 8198226,
-     "sha256": "771737e12b6dd314d4776c47bde81843b7384365119592c808d78bf470f994d2",
+     "bytes": 8209227,
+     "sha256": "2567fee14aca795bed637b9bb2005645db5d9ddb5cbec45b9cafe19bdb9165b8",
      "bbox": [
       30.8223,
       40.6231,
       31.8536,
       41.1158
      ],
-     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261103/TR-81.pmtiles",
-     "built": "2026-11-03"
+     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261120/TR-81.pmtiles",
+     "built": "2026-11-20",
+     "routing": {
+      "id": "TR-81-routing",
+      "name": {
+       "tr": "Düzce rota verisi",
+       "en": "Düzce routing data"
+      },
+      "file": "TR-81-routing.tar.gz",
+      "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-routing-split-20261120/TR-81-routing.tar.gz",
+      "bytes": 4031560,
+      "sha256": "55e717ac790a0e9bcb328fe7afc916c1d7ae558adec2c35bafb8802c60958406",
+      "built": "2026-11-20"
+     }
     },
     {
      "id": "TR-22",
@@ -487,16 +775,28 @@
       "en": "Edirne"
      },
      "file": "TR-22.pmtiles",
-     "bytes": 22053716,
-     "sha256": "bfd65454e471ae2cd294171b006a417f95746a4d02ec1d1cfc9d20bf76a66a35",
+     "bytes": 22074611,
+     "sha256": "25a5eb2775dd2cc1bd0b49b76a3b83a18e80af7338bebd74f8054b82a0f699a7",
      "bbox": [
       26.0364,
       40.5895,
       27.0263,
       42.0028
      ],
-     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261103/TR-22.pmtiles",
-     "built": "2026-11-03"
+     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261120/TR-22.pmtiles",
+     "built": "2026-11-20",
+     "routing": {
+      "id": "TR-22-routing",
+      "name": {
+       "tr": "Edirne rota verisi",
+       "en": "Edirne routing data"
+      },
+      "file": "TR-22-routing.tar.gz",
+      "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-routing-split-20261120/TR-22-routing.tar.gz",
+      "bytes": 7409961,
+      "sha256": "6e4dd1392a633819def947da86f367b680cfb1a4fd0b53ccafeb029fed84f079",
+      "built": "2026-11-20"
+     }
     },
     {
      "id": "TR-23",
@@ -505,16 +805,28 @@
       "en": "Elazığ"
      },
      "file": "TR-23.pmtiles",
-     "bytes": 13215385,
-     "sha256": "2b8c8b45afa31e790a065c4fb4f5f974b3f6c9ab11b60c89e766f2d23cd404e4",
+     "bytes": 13217068,
+     "sha256": "811f1c7ebe5f0d795d8545d59b4b966559be5131e3a4ec3017c16a08b86a9a21",
      "bbox": [
       38.3569,
       38.24,
       40.3348,
       39.1914
      ],
-     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261103/TR-23.pmtiles",
-     "built": "2026-11-03"
+     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261120/TR-23.pmtiles",
+     "built": "2026-11-20",
+     "routing": {
+      "id": "TR-23-routing",
+      "name": {
+       "tr": "Elazığ rota verisi",
+       "en": "Elazığ routing data"
+      },
+      "file": "TR-23-routing.tar.gz",
+      "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-routing-split-20261120/TR-23-routing.tar.gz",
+      "bytes": 8032750,
+      "sha256": "f49b02a89192c3a8bd42dbc61d828ae403e2522e1d7ae47a07f70d0daf599491",
+      "built": "2026-11-20"
+     }
     },
     {
      "id": "TR-24",
@@ -523,16 +835,28 @@
       "en": "Erzincan"
      },
      "file": "TR-24.pmtiles",
-     "bytes": 10334889,
-     "sha256": "da24fac5f0a2dd493da6f48586c24ea09233bf6226d2c77fb51bb461b3fdd36a",
+     "bytes": 10339154,
+     "sha256": "68aae1d7a3b0e31f908559fca929f153d72e8e681238175a6cb43de2eec866d4",
      "bbox": [
       38.2773,
       39.0092,
       40.7559,
       40.0831
      ],
-     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261103/TR-24.pmtiles",
-     "built": "2026-11-03"
+     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261120/TR-24.pmtiles",
+     "built": "2026-11-20",
+     "routing": {
+      "id": "TR-24-routing",
+      "name": {
+       "tr": "Erzincan rota verisi",
+       "en": "Erzincan routing data"
+      },
+      "file": "TR-24-routing.tar.gz",
+      "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-routing-split-20261120/TR-24-routing.tar.gz",
+      "bytes": 3905598,
+      "sha256": "025d13e3708be6bdad30971fc62885f139f8c5208bcad8c2e071619fcfb38ac6",
+      "built": "2026-11-20"
+     }
     },
     {
      "id": "TR-25",
@@ -541,16 +865,28 @@
       "en": "Erzurum"
      },
      "file": "TR-25.pmtiles",
-     "bytes": 19749812,
-     "sha256": "19c2af0e13f38451078e446aaf27ab7de8a28585b620515c80095f91e315f5c5",
+     "bytes": 19751943,
+     "sha256": "bb7e2ceeb7b7b7cb85537ea589f0daf4487ba247144e76242c2d613d4ef4ee6a",
      "bbox": [
       40.246,
       39.1521,
       42.6202,
       40.9908
      ],
-     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261103/TR-25.pmtiles",
-     "built": "2026-11-03"
+     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261120/TR-25.pmtiles",
+     "built": "2026-11-20",
+     "routing": {
+      "id": "TR-25-routing",
+      "name": {
+       "tr": "Erzurum rota verisi",
+       "en": "Erzurum routing data"
+      },
+      "file": "TR-25-routing.tar.gz",
+      "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-routing-split-20261120/TR-25-routing.tar.gz",
+      "bytes": 7613711,
+      "sha256": "6f9fe42384704bdc18bedcd004e4d9e19d068aa2adbe14859b50962003d9d983",
+      "built": "2026-11-20"
+     }
     },
     {
      "id": "TR-26",
@@ -559,16 +895,28 @@
       "en": "Eskişehir"
      },
      "file": "TR-26.pmtiles",
-     "bytes": 17306829,
-     "sha256": "3747c9eb1a442a22f3f7191af71c4bc3f91509d1fed67ffdf7818fcc8bb4b484",
+     "bytes": 17309929,
+     "sha256": "6b629b2b69d65f66a99f668a71c78436921f73405bfc162ce6620735ef1b0673",
      "bbox": [
       29.9884,
       39.0403,
       32.0115,
       40.1873
      ],
-     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261103/TR-26.pmtiles",
-     "built": "2026-11-03"
+     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261120/TR-26.pmtiles",
+     "built": "2026-11-20",
+     "routing": {
+      "id": "TR-26-routing",
+      "name": {
+       "tr": "Eskişehir rota verisi",
+       "en": "Eskişehir routing data"
+      },
+      "file": "TR-26-routing.tar.gz",
+      "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-routing-split-20261120/TR-26-routing.tar.gz",
+      "bytes": 8790706,
+      "sha256": "9d270cd2666b8891a25d1098bd928c9be1943e2415923afb75d09efcfb69ca26",
+      "built": "2026-11-20"
+     }
     },
     {
      "id": "TR-27",
@@ -577,16 +925,28 @@
       "en": "Gaziantep"
      },
      "file": "TR-27.pmtiles",
-     "bytes": 25101645,
-     "sha256": "6c7e2434eb3dac8f207c7ef8dd5217b9c06a373776c38b618cfb390b06418fb5",
+     "bytes": 25113760,
+     "sha256": "6f26472780259bc9f4be22574ee8458a84f4f732d418e309b942371278a9675b",
      "bbox": [
       36.4428,
       36.7058,
       38.081,
       37.5271
      ],
-     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261103/TR-27.pmtiles",
-     "built": "2026-11-03"
+     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261120/TR-27.pmtiles",
+     "built": "2026-11-20",
+     "routing": {
+      "id": "TR-27-routing",
+      "name": {
+       "tr": "Gaziantep rota verisi",
+       "en": "Gaziantep routing data"
+      },
+      "file": "TR-27-routing.tar.gz",
+      "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-routing-split-20261120/TR-27-routing.tar.gz",
+      "bytes": 18087896,
+      "sha256": "70b21a0421372758059dce3a882fea795cdf31d001665116891a369f4c42224a",
+      "built": "2026-11-20"
+     }
     },
     {
      "id": "TR-28",
@@ -595,16 +955,28 @@
       "en": "Giresun"
      },
      "file": "TR-28.pmtiles",
-     "bytes": 14287662,
-     "sha256": "d6fc5ae6443d57785d3216e8106c7a7469a3bcf85c25cccede42d61d52eeb6f7",
+     "bytes": 14288501,
+     "sha256": "447670d6f0e1a543b33153c925a46518507d041dee9794013d26761e7c6e4674",
      "bbox": [
       37.9604,
       40.0458,
       39.1825,
       41.0793
      ],
-     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261103/TR-28.pmtiles",
-     "built": "2026-11-03"
+     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261120/TR-28.pmtiles",
+     "built": "2026-11-20",
+     "routing": {
+      "id": "TR-28-routing",
+      "name": {
+       "tr": "Giresun rota verisi",
+       "en": "Giresun routing data"
+      },
+      "file": "TR-28-routing.tar.gz",
+      "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-routing-split-20261120/TR-28-routing.tar.gz",
+      "bytes": 6121185,
+      "sha256": "62572e0ac122f36224b404261352f8073b03e7d6e262a50fdcdacff5e604a6f7",
+      "built": "2026-11-20"
+     }
     },
     {
      "id": "TR-29",
@@ -613,16 +985,28 @@
       "en": "Gümüşhane"
      },
      "file": "TR-29.pmtiles",
-     "bytes": 11590553,
-     "sha256": "0815d3b1cbf505c0730e05de844d1f542650395b11f362e5ecaa12220bec587c",
+     "bytes": 11593246,
+     "sha256": "526946a52c76d70b150593b5d6767f55c8fb950bd1055d5405329d06e15ed295",
      "bbox": [
       38.7505,
       39.8362,
       40.1033,
       40.8373
      ],
-     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261103/TR-29.pmtiles",
-     "built": "2026-11-03"
+     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261120/TR-29.pmtiles",
+     "built": "2026-11-20",
+     "routing": {
+      "id": "TR-29-routing",
+      "name": {
+       "tr": "Gümüşhane rota verisi",
+       "en": "Gümüşhane routing data"
+      },
+      "file": "TR-29-routing.tar.gz",
+      "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-routing-split-20261120/TR-29-routing.tar.gz",
+      "bytes": 7699585,
+      "sha256": "c8c5f488f8b523774f20c4801cce2fb37dc43399d4efbb69e0374c14539423b7",
+      "built": "2026-11-20"
+     }
     },
     {
      "id": "TR-30",
@@ -631,16 +1015,28 @@
       "en": "Hakkâri"
      },
      "file": "TR-30.pmtiles",
-     "bytes": 6761621,
-     "sha256": "cb64145cb3e6e3f9c8ac858243156b97b3695b99824243d7a74c12de80d7680d",
+     "bytes": 6763331,
+     "sha256": "bd574aadbb7f3c4617e82cf342a5de59065e7371a1f7cef269855a308197d238",
      "bbox": [
       43.3065,
       36.9629,
       44.8148,
       37.8106
      ],
-     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261103/TR-30.pmtiles",
-     "built": "2026-11-03"
+     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261120/TR-30.pmtiles",
+     "built": "2026-11-20",
+     "routing": {
+      "id": "TR-30-routing",
+      "name": {
+       "tr": "Hakkâri rota verisi",
+       "en": "Hakkâri routing data"
+      },
+      "file": "TR-30-routing.tar.gz",
+      "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-routing-split-20261120/TR-30-routing.tar.gz",
+      "bytes": 1158980,
+      "sha256": "417faf2126a97d3512ac36e831c48202f9b07b856f6eaf156abb933e224e5655",
+      "built": "2026-11-20"
+     }
     },
     {
      "id": "TR-31",
@@ -649,16 +1045,28 @@
       "en": "Hatay"
      },
      "file": "TR-31.pmtiles",
-     "bytes": 25345403,
-     "sha256": "eb42de92ae04d8142efb5b0ea771757d491c874cd858b49f24bcf360e16c7367",
+     "bytes": 25389772,
+     "sha256": "5e3974312b2779d1031694d08968465327fb71d6af146ce733d565be6915faa1",
      "bbox": [
       35.7802,
       35.8077,
       36.6956,
       37.0082
      ],
-     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261103/TR-31.pmtiles",
-     "built": "2026-11-03"
+     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261120/TR-31.pmtiles",
+     "built": "2026-11-20",
+     "routing": {
+      "id": "TR-31-routing",
+      "name": {
+       "tr": "Hatay rota verisi",
+       "en": "Hatay routing data"
+      },
+      "file": "TR-31-routing.tar.gz",
+      "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-routing-split-20261120/TR-31-routing.tar.gz",
+      "bytes": 11244046,
+      "sha256": "3af5405a7405e4b8c27306576233b0ab784b44cc809560a24dfba1cad00ded8a",
+      "built": "2026-11-20"
+     }
     },
     {
      "id": "TR-32",
@@ -667,16 +1075,28 @@
       "en": "Isparta"
      },
      "file": "TR-32.pmtiles",
-     "bytes": 11708019,
-     "sha256": "02ef97a2ff4aeeb7295081e8d1ddf5a784c01b1e2235d19473a48a9a26d8cda4",
+     "bytes": 11771034,
+     "sha256": "82ed5d2f0933fedf8ca70cdc8facc9af098b2351203af51944208b7c6862908c",
      "bbox": [
       30.0926,
       37.3425,
       31.5397,
       38.5091
      ],
-     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261103/TR-32.pmtiles",
-     "built": "2026-11-03"
+     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261120/TR-32.pmtiles",
+     "built": "2026-11-20",
+     "routing": {
+      "id": "TR-32-routing",
+      "name": {
+       "tr": "Isparta rota verisi",
+       "en": "Isparta routing data"
+      },
+      "file": "TR-32-routing.tar.gz",
+      "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-routing-split-20261120/TR-32-routing.tar.gz",
+      "bytes": 8703503,
+      "sha256": "15ee5131f02f74d367b2f81866f12be9282a0675164597e5f6658bb6bdf0e491",
+      "built": "2026-11-20"
+     }
     },
     {
      "id": "TR-76",
@@ -685,16 +1105,28 @@
       "en": "Iğdır"
      },
      "file": "TR-76.pmtiles",
-     "bytes": 4526846,
-     "sha256": "174774cf2204db8f1c773771d652a9d5f7a29b1fa95c731d7ee365c49f2da06b",
+     "bytes": 4528552,
+     "sha256": "a7b739f42ecde51a1d51edea7e08fe81462ace57ea1af56130bf8910ffaaa4cb",
      "bbox": [
       43.2843,
       39.6273,
       44.8177,
       40.1315
      ],
-     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261103/TR-76.pmtiles",
-     "built": "2026-11-03"
+     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261120/TR-76.pmtiles",
+     "built": "2026-11-20",
+     "routing": {
+      "id": "TR-76-routing",
+      "name": {
+       "tr": "Iğdır rota verisi",
+       "en": "Iğdır routing data"
+      },
+      "file": "TR-76-routing.tar.gz",
+      "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-routing-split-20261120/TR-76-routing.tar.gz",
+      "bytes": 1404751,
+      "sha256": "c730530d255abf1291e4eee2c3d49fbe96f996adc15c8c7b17bb038fff515a5c",
+      "built": "2026-11-20"
+     }
     },
     {
      "id": "TR-46",
@@ -703,16 +1135,28 @@
       "en": "Kahramanmaraş"
      },
      "file": "TR-46.pmtiles",
-     "bytes": 29387812,
-     "sha256": "22bfbaccea2d8e4719e76c256d5d3d89b082b3cf375a6c3f5801b1c8346c8640",
+     "bytes": 29417443,
+     "sha256": "0feb2eab3e1baf277042789dd0e038371b7677719cf6e52b13d75c112682d96f",
      "bbox": [
       36.2013,
       37.181,
       37.7519,
       38.5861
      ],
-     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261103/TR-46.pmtiles",
-     "built": "2026-11-03"
+     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261120/TR-46.pmtiles",
+     "built": "2026-11-20",
+     "routing": {
+      "id": "TR-46-routing",
+      "name": {
+       "tr": "Kahramanmaraş rota verisi",
+       "en": "Kahramanmaraş routing data"
+      },
+      "file": "TR-46-routing.tar.gz",
+      "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-routing-split-20261120/TR-46-routing.tar.gz",
+      "bytes": 19900711,
+      "sha256": "3d65bd03ce108e78ccb344eafa153e4e67f60e85ff4ba89c97e12fc2ed0543d1",
+      "built": "2026-11-20"
+     }
     },
     {
      "id": "TR-78",
@@ -721,16 +1165,28 @@
       "en": "Karabük"
      },
      "file": "TR-78.pmtiles",
-     "bytes": 9141134,
-     "sha256": "0f2579b1ab772ebc3f6df84efe50e86105e6c3cb3f3d8a2f2053ad952380ee3f",
+     "bytes": 9141423,
+     "sha256": "e78e35dee199e12af22a5dc88f9b73be46a47cab16beb8e329077432d1dcc7b7",
      "bbox": [
       31.9738,
       40.8254,
       33.1373,
       41.5879
      ],
-     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261103/TR-78.pmtiles",
-     "built": "2026-11-03"
+     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261120/TR-78.pmtiles",
+     "built": "2026-11-20",
+     "routing": {
+      "id": "TR-78-routing",
+      "name": {
+       "tr": "Karabük rota verisi",
+       "en": "Karabük routing data"
+      },
+      "file": "TR-78-routing.tar.gz",
+      "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-routing-split-20261120/TR-78-routing.tar.gz",
+      "bytes": 3942470,
+      "sha256": "2f00cc36e4a74c84cc64eb1fa579acdf57853ea21a49b422a781efd204c1bee9",
+      "built": "2026-11-20"
+     }
     },
     {
      "id": "TR-70",
@@ -739,16 +1195,28 @@
       "en": "Karaman"
      },
      "file": "TR-70.pmtiles",
-     "bytes": 8189609,
-     "sha256": "b73f964c31b2e5900819f25e6272bc1838a7df37acb2fbe3b41ef876bdbdfb4b",
+     "bytes": 8201415,
+     "sha256": "2fdd9d40cf2438bee75725f991e8c6e5d3453cb3aeff1d5dca485da30a356343",
      "bbox": [
       32.4698,
       36.4519,
       34.2592,
       37.5617
      ],
-     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261103/TR-70.pmtiles",
-     "built": "2026-11-03"
+     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261120/TR-70.pmtiles",
+     "built": "2026-11-20",
+     "routing": {
+      "id": "TR-70-routing",
+      "name": {
+       "tr": "Karaman rota verisi",
+       "en": "Karaman routing data"
+      },
+      "file": "TR-70-routing.tar.gz",
+      "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-routing-split-20261120/TR-70-routing.tar.gz",
+      "bytes": 8365898,
+      "sha256": "b6dbbb9141644d1c8ee1e3afed6447c6a885e76c762d7a6a951ab4078f6aafce",
+      "built": "2026-11-20"
+     }
     },
     {
      "id": "TR-36",
@@ -757,16 +1225,28 @@
       "en": "Kars"
      },
      "file": "TR-36.pmtiles",
-     "bytes": 9302243,
-     "sha256": "b3a5b73802c30c12060a08b5f1023097d86f2a7fcd3470a07d99c1786c3baa2f",
+     "bytes": 9305108,
+     "sha256": "87cf44a6281d4d76340d6028b710baaa43d88b3411e30d2050f513e96657d63c",
      "bbox": [
       42.1007,
       39.9346,
       43.7483,
       41.0965
      ],
-     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261103/TR-36.pmtiles",
-     "built": "2026-11-03"
+     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261120/TR-36.pmtiles",
+     "built": "2026-11-20",
+     "routing": {
+      "id": "TR-36-routing",
+      "name": {
+       "tr": "Kars rota verisi",
+       "en": "Kars routing data"
+      },
+      "file": "TR-36-routing.tar.gz",
+      "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-routing-split-20261120/TR-36-routing.tar.gz",
+      "bytes": 2238672,
+      "sha256": "787f35d1c4d6e0bc924c37fa720075f704bf4d537b201347556f01eb3c4cf0c7",
+      "built": "2026-11-20"
+     }
     },
     {
      "id": "TR-37",
@@ -775,16 +1255,28 @@
       "en": "Kastamonu"
      },
      "file": "TR-37.pmtiles",
-     "bytes": 25253382,
-     "sha256": "5e3413d743f6909e5afb5af0122d80f71e4d26c94bfcc54eab15577f74d08180",
+     "bytes": 25272103,
+     "sha256": "f4dd6b179b2657b1805780e7585c55366c2c84a951405b815d73734f765ba7ea",
      "bbox": [
       32.7468,
       40.8197,
       34.6068,
       42.0196
      ],
-     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261103/TR-37.pmtiles",
-     "built": "2026-11-03"
+     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261120/TR-37.pmtiles",
+     "built": "2026-11-20",
+     "routing": {
+      "id": "TR-37-routing",
+      "name": {
+       "tr": "Kastamonu rota verisi",
+       "en": "Kastamonu routing data"
+      },
+      "file": "TR-37-routing.tar.gz",
+      "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-routing-split-20261120/TR-37-routing.tar.gz",
+      "bytes": 6675201,
+      "sha256": "86f82d5b5edf5c2c132ba37bae46ac5ce8732a163339aa9e70f9a86f28541c51",
+      "built": "2026-11-20"
+     }
     },
     {
      "id": "TR-38",
@@ -793,16 +1285,28 @@
       "en": "Kayseri"
      },
      "file": "TR-38.pmtiles",
-     "bytes": 61023324,
-     "sha256": "9acedc4e142b32d48a29e8ac1c568fc2a0ac22a9d36ae7f47cd62b28aed34cbe",
+     "bytes": 61031318,
+     "sha256": "c6a7b1276b138141014ae1e2590d452899326594c3327de463d8d3a6bef1768e",
      "bbox": [
       34.8469,
       37.6914,
       36.9598,
       39.3223
      ],
-     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261103/TR-38.pmtiles",
-     "built": "2026-11-03"
+     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261120/TR-38.pmtiles",
+     "built": "2026-11-20",
+     "routing": {
+      "id": "TR-38-routing",
+      "name": {
+       "tr": "Kayseri rota verisi",
+       "en": "Kayseri routing data"
+      },
+      "file": "TR-38-routing.tar.gz",
+      "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-routing-split-20261120/TR-38-routing.tar.gz",
+      "bytes": 18140944,
+      "sha256": "73c42b0c7c57535def40043d8110e1d581c6a6507fe6ec4cb9fa33e67437ab4d",
+      "built": "2026-11-20"
+     }
     },
     {
      "id": "TR-79",
@@ -811,16 +1315,28 @@
       "en": "Kilis"
      },
      "file": "TR-79.pmtiles",
-     "bytes": 5141730,
-     "sha256": "ceb6426060ae4dbf3ec55804c261a7ce635f5d9b79af15139ad160dcb3fff902",
+     "bytes": 5147219,
+     "sha256": "f8cd04f4844b1847ce9f656246d9ddec4cb728a9b29a3a6c0b51a6f3e2afedaf",
      "bbox": [
       36.7124,
       36.6327,
       37.5727,
       37.0346
      ],
-     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261103/TR-79.pmtiles",
-     "built": "2026-11-03"
+     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261120/TR-79.pmtiles",
+     "built": "2026-11-20",
+     "routing": {
+      "id": "TR-79-routing",
+      "name": {
+       "tr": "Kilis rota verisi",
+       "en": "Kilis routing data"
+      },
+      "file": "TR-79-routing.tar.gz",
+      "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-routing-split-20261120/TR-79-routing.tar.gz",
+      "bytes": 8462459,
+      "sha256": "84c3b6fb7eda1b6d9ac2e27d9086f25d83642b810d09cc9d4d97f6a03edcad3a",
+      "built": "2026-11-20"
+     }
     },
     {
      "id": "TR-41",
@@ -829,16 +1345,28 @@
       "en": "Kocaeli"
      },
      "file": "TR-41.pmtiles",
-     "bytes": 21546826,
-     "sha256": "792a52a422ae8d16b3ad0f859d7b4611edd7f364ee9402170cb9afea8029ae1c",
+     "bytes": 21547202,
+     "sha256": "34491fca33bb0712c7a6707c9115d9f79b1b3af93f4b23acabc91ca492010d65",
      "bbox": [
       29.3334,
       40.5248,
       30.3671,
       41.2172
      ],
-     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261103/TR-41.pmtiles",
-     "built": "2026-11-03"
+     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261120/TR-41.pmtiles",
+     "built": "2026-11-20",
+     "routing": {
+      "id": "TR-41-routing",
+      "name": {
+       "tr": "Kocaeli rota verisi",
+       "en": "Kocaeli routing data"
+      },
+      "file": "TR-41-routing.tar.gz",
+      "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-routing-split-20261120/TR-41-routing.tar.gz",
+      "bytes": 15235074,
+      "sha256": "bafe8ce13cd7cada91b252b30acaac7f690e252e0070e9c380b76d8d4004312e",
+      "built": "2026-11-20"
+     }
     },
     {
      "id": "TR-42",
@@ -847,16 +1375,28 @@
       "en": "Konya"
      },
      "file": "TR-42.pmtiles",
-     "bytes": 37325426,
-     "sha256": "a3bd46ef2fbc2f990a070771854da5d7f5192b17b7b57fc93f761cbe1a4520d2",
+     "bytes": 37488528,
+     "sha256": "80f9acde4a5a8ba261a3bbf701bbef7e34e0378c7be8908b17ff70883bd419cb",
      "bbox": [
       31.2586,
       36.7514,
       34.4365,
       39.3049
      ],
-     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261103/TR-42.pmtiles",
-     "built": "2026-11-03"
+     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261120/TR-42.pmtiles",
+     "built": "2026-11-20",
+     "routing": {
+      "id": "TR-42-routing",
+      "name": {
+       "tr": "Konya rota verisi",
+       "en": "Konya routing data"
+      },
+      "file": "TR-42-routing.tar.gz",
+      "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-routing-split-20261120/TR-42-routing.tar.gz",
+      "bytes": 21857496,
+      "sha256": "328114fddbada60fe00314a23fc1f99c5eb8cc6dafce3d6f22102e140f8b0339",
+      "built": "2026-11-20"
+     }
     },
     {
      "id": "TR-43",
@@ -865,16 +1405,28 @@
       "en": "Kütahya"
      },
      "file": "TR-43.pmtiles",
-     "bytes": 18298416,
-     "sha256": "5ca154bdf7be25e42eef3a8705716dd19f1378eb49750b729f324ccd2a0b15b9",
+     "bytes": 18307557,
+     "sha256": "5b5c3caedff50fc96b69f395f7c154f0c2d29aaa3059e39db02c581367a45cb0",
      "bbox": [
       28.6086,
       38.7914,
       30.4462,
       39.8789
      ],
-     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261103/TR-43.pmtiles",
-     "built": "2026-11-03"
+     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261120/TR-43.pmtiles",
+     "built": "2026-11-20",
+     "routing": {
+      "id": "TR-43-routing",
+      "name": {
+       "tr": "Kütahya rota verisi",
+       "en": "Kütahya routing data"
+      },
+      "file": "TR-43-routing.tar.gz",
+      "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-routing-split-20261120/TR-43-routing.tar.gz",
+      "bytes": 6727885,
+      "sha256": "70b6801e66953a55699c26f5307fbbfa568ac7d406feb9809b58eb93afb1445d",
+      "built": "2026-11-20"
+     }
     },
     {
      "id": "TR-39",
@@ -883,16 +1435,28 @@
       "en": "Kırklareli"
      },
      "file": "TR-39.pmtiles",
-     "bytes": 20248558,
-     "sha256": "1876f156e209e39fb8b8564010aca1c68837d79f4a6fff190c0bb1a69a6b10d4",
+     "bytes": 20269969,
+     "sha256": "f2579e3865dcb6d740561a0371c6fb9f868a7ad1134bdfe786092e1eb6549142",
      "bbox": [
       26.8841,
       41.2171,
       28.1468,
       42.1048
      ],
-     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261103/TR-39.pmtiles",
-     "built": "2026-11-03"
+     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261120/TR-39.pmtiles",
+     "built": "2026-11-20",
+     "routing": {
+      "id": "TR-39-routing",
+      "name": {
+       "tr": "Kırklareli rota verisi",
+       "en": "Kırklareli routing data"
+      },
+      "file": "TR-39-routing.tar.gz",
+      "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-routing-split-20261120/TR-39-routing.tar.gz",
+      "bytes": 12059983,
+      "sha256": "44a4d666e4ebc13e2631e59bfad12ca6a5c591e1409694e7614aa08e8ec1a15d",
+      "built": "2026-11-20"
+     }
     },
     {
      "id": "TR-71",
@@ -901,16 +1465,28 @@
       "en": "Kırıkkale"
      },
      "file": "TR-71.pmtiles",
-     "bytes": 5480881,
-     "sha256": "6170b701ccfa02d8b69978c8d23705b9e18899f186e6fba1f068bcdc963d4666",
+     "bytes": 5482757,
+     "sha256": "15ca2906ceae9967a3c838d2249be7f6886be357091a05b697fb71fb393d3138",
      "bbox": [
       33.1861,
       39.3952,
       34.2081,
       40.3349
      ],
-     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261103/TR-71.pmtiles",
-     "built": "2026-11-03"
+     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261120/TR-71.pmtiles",
+     "built": "2026-11-20",
+     "routing": {
+      "id": "TR-71-routing",
+      "name": {
+       "tr": "Kırıkkale rota verisi",
+       "en": "Kırıkkale routing data"
+      },
+      "file": "TR-71-routing.tar.gz",
+      "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-routing-split-20261120/TR-71-routing.tar.gz",
+      "bytes": 4161587,
+      "sha256": "3eabb93b96e028fcd19e65d6db74581f37f5afd1eb0f5b85a89a3e3b72ad39f4",
+      "built": "2026-11-20"
+     }
     },
     {
      "id": "TR-40",
@@ -919,16 +1495,28 @@
       "en": "Kırşehir"
      },
      "file": "TR-40.pmtiles",
-     "bytes": 6534294,
-     "sha256": "793327c2bb6b18d3f23cf46756f0e464121c6a6895eea5f4e95bd51de12b3d16",
+     "bytes": 6587420,
+     "sha256": "0f550d1b5d26223e039d02e8971d7e8f921da1d5fbba597b3379c365efd37571",
      "bbox": [
       33.4063,
       38.8199,
       34.7048,
       39.7988
      ],
-     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261103/TR-40.pmtiles",
-     "built": "2026-11-03"
+     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261120/TR-40.pmtiles",
+     "built": "2026-11-20",
+     "routing": {
+      "id": "TR-40-routing",
+      "name": {
+       "tr": "Kırşehir rota verisi",
+       "en": "Kırşehir routing data"
+      },
+      "file": "TR-40-routing.tar.gz",
+      "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-routing-split-20261120/TR-40-routing.tar.gz",
+      "bytes": 4166139,
+      "sha256": "df46c7759a78e718d1475605547c2bafcc6b370eb07974c11f1b47d251a260dd",
+      "built": "2026-11-20"
+     }
     },
     {
      "id": "TR-44",
@@ -937,16 +1525,28 @@
       "en": "Malatya"
      },
      "file": "TR-44.pmtiles",
-     "bytes": 18512156,
-     "sha256": "cbab894e5a6a368ffe170f3940573974d7215ac80786bd0862beb30329e69cdd",
+     "bytes": 18557053,
+     "sha256": "7846205a86395906494f76061b6c42f00ead1fc12a530f4051cc75a62dae9152",
      "bbox": [
       37.2608,
       37.8666,
       39.1514,
       39.1528
      ],
-     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261103/TR-44.pmtiles",
-     "built": "2026-11-03"
+     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261120/TR-44.pmtiles",
+     "built": "2026-11-20",
+     "routing": {
+      "id": "TR-44-routing",
+      "name": {
+       "tr": "Malatya rota verisi",
+       "en": "Malatya routing data"
+      },
+      "file": "TR-44-routing.tar.gz",
+      "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-routing-split-20261120/TR-44-routing.tar.gz",
+      "bytes": 9976652,
+      "sha256": "6a7975765c65d19bf3b0cd769ca0be18c9383ecb811eb4526693e2a040578fe7",
+      "built": "2026-11-20"
+     }
     },
     {
      "id": "TR-45",
@@ -955,16 +1555,28 @@
       "en": "Manisa"
      },
      "file": "TR-45.pmtiles",
-     "bytes": 25618249,
-     "sha256": "ee0f286d0ebd27508dd7a56b2ad78e80efbaa7ae94e799ddddc89be544564970",
+     "bytes": 25629789,
+     "sha256": "604cd2bb24f8d4ba3a208cffd825abdaf45bf4b1fc0045a599ed5c3a55d9b2d4",
      "bbox": [
       27.1125,
       38.0853,
       29.1356,
       39.4071
      ],
-     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261103/TR-45.pmtiles",
-     "built": "2026-11-03"
+     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261120/TR-45.pmtiles",
+     "built": "2026-11-20",
+     "routing": {
+      "id": "TR-45-routing",
+      "name": {
+       "tr": "Manisa rota verisi",
+       "en": "Manisa routing data"
+      },
+      "file": "TR-45-routing.tar.gz",
+      "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-routing-split-20261120/TR-45-routing.tar.gz",
+      "bytes": 18776623,
+      "sha256": "1e0eda9e7c82d0b8e394676275bfc66c5ff9d1af02c424c9049926496fb2bbf9",
+      "built": "2026-11-20"
+     }
     },
     {
      "id": "TR-47",
@@ -973,16 +1585,28 @@
       "en": "Mardin"
      },
      "file": "TR-47.pmtiles",
-     "bytes": 15482811,
-     "sha256": "924eb1474988416a8f4a9f9737b291fd776b0d46654e4096281b0744179767fc",
+     "bytes": 15488116,
+     "sha256": "c2e420d2d377fd56e3ea05c33ef849e166c1e59a2bea68fc7e28e216f3f0aa81",
      "bbox": [
       39.8848,
       36.9114,
       41.8972,
       37.7364
      ],
-     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261103/TR-47.pmtiles",
-     "built": "2026-11-03"
+     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261120/TR-47.pmtiles",
+     "built": "2026-11-20",
+     "routing": {
+      "id": "TR-47-routing",
+      "name": {
+       "tr": "Mardin rota verisi",
+       "en": "Mardin routing data"
+      },
+      "file": "TR-47-routing.tar.gz",
+      "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-routing-split-20261120/TR-47-routing.tar.gz",
+      "bytes": 3426314,
+      "sha256": "6a7be0ddcfd9fbfdaed02f854a6dd9f18331a223ae6269e50f949471da89aed4",
+      "built": "2026-11-20"
+     }
     },
     {
      "id": "TR-33",
@@ -991,16 +1615,28 @@
       "en": "Mersin"
      },
      "file": "TR-33.pmtiles",
-     "bytes": 26718158,
-     "sha256": "2d2de61a412a149ac9d18e9eb454ad11bbc3f22612440c53f4ce27baff20f661",
+     "bytes": 26881536,
+     "sha256": "0f229faeea21b7fa1b47c41f176d196379f9807ce9b7b42b6de6ebc2674805bf",
      "bbox": [
       32.5109,
       36.0168,
       35.1516,
       37.4356
      ],
-     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261103/TR-33.pmtiles",
-     "built": "2026-11-03"
+     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261120/TR-33.pmtiles",
+     "built": "2026-11-20",
+     "routing": {
+      "id": "TR-33-routing",
+      "name": {
+       "tr": "Mersin rota verisi",
+       "en": "Mersin routing data"
+      },
+      "file": "TR-33-routing.tar.gz",
+      "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-routing-split-20261120/TR-33-routing.tar.gz",
+      "bytes": 11365610,
+      "sha256": "168ba19f6c136f69c9cacaee61f7fb690a376942419a996b68368daf71815ada",
+      "built": "2026-11-20"
+     }
     },
     {
      "id": "TR-48",
@@ -1009,16 +1645,28 @@
       "en": "Muğla"
      },
      "file": "TR-48.pmtiles",
-     "bytes": 24526287,
-     "sha256": "ef2e388003bc41f7b537eae811e1a9ac023f0b3afcae669e1326a01a2d1cfe50",
+     "bytes": 24614244,
+     "sha256": "7920034f9ff878a04a8834545fc453e8f65e7c95c0c5c77a3376dcfd08c6df43",
      "bbox": [
       27.1495,
       36.2932,
       29.7718,
       37.6007
      ],
-     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261103/TR-48.pmtiles",
-     "built": "2026-11-03"
+     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261120/TR-48.pmtiles",
+     "built": "2026-11-20",
+     "routing": {
+      "id": "TR-48-routing",
+      "name": {
+       "tr": "Muğla rota verisi",
+       "en": "Muğla routing data"
+      },
+      "file": "TR-48-routing.tar.gz",
+      "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-routing-split-20261120/TR-48-routing.tar.gz",
+      "bytes": 12195545,
+      "sha256": "eadbff6c264620ea01e65f2d2f78752ea94e00b09ff18fb9dad3cbedb5b90c97",
+      "built": "2026-11-20"
+     }
     },
     {
      "id": "TR-49",
@@ -1027,16 +1675,28 @@
       "en": "Muş"
      },
      "file": "TR-49.pmtiles",
-     "bytes": 7170539,
-     "sha256": "b01dd9c20d43a9fc6c6503c7014d732d1488fe74905d265a0506e2381bdc8961",
+     "bytes": 7170917,
+     "sha256": "90cdbd9f5ef9b9a60094a9fa4b85715f703ad78b50364ad46ab87dc712960735",
      "bbox": [
       41.1045,
       38.4833,
       42.7126,
       39.5382
      ],
-     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261103/TR-49.pmtiles",
-     "built": "2026-11-03"
+     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261120/TR-49.pmtiles",
+     "built": "2026-11-20",
+     "routing": {
+      "id": "TR-49-routing",
+      "name": {
+       "tr": "Muş rota verisi",
+       "en": "Muş routing data"
+      },
+      "file": "TR-49-routing.tar.gz",
+      "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-routing-split-20261120/TR-49-routing.tar.gz",
+      "bytes": 2409773,
+      "sha256": "7a56efb50ec1621934297ff5e41d160b676263f1e7bb6e0ba17147779ffe5fb0",
+      "built": "2026-11-20"
+     }
     },
     {
      "id": "TR-50",
@@ -1045,16 +1705,28 @@
       "en": "Nevşehir"
      },
      "file": "TR-50.pmtiles",
-     "bytes": 9909615,
-     "sha256": "31129b0fff9e6a91f08509a7daacee640695a69b986cff67afbb784f7b3c2ac2",
+     "bytes": 9992456,
+     "sha256": "93f16a2034f29ecf0ab98d97cdd647b06441d18171c0c8d2d36e04fdaa223958",
      "bbox": [
       34.2388,
       38.2812,
       35.1664,
       39.3836
      ],
-     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261103/TR-50.pmtiles",
-     "built": "2026-11-03"
+     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261120/TR-50.pmtiles",
+     "built": "2026-11-20",
+     "routing": {
+      "id": "TR-50-routing",
+      "name": {
+       "tr": "Nevşehir rota verisi",
+       "en": "Nevşehir routing data"
+      },
+      "file": "TR-50-routing.tar.gz",
+      "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-routing-split-20261120/TR-50-routing.tar.gz",
+      "bytes": 5908681,
+      "sha256": "4dc291a492796dc9752e95f09d525f2d36eca9a336d73056a3036588efe22788",
+      "built": "2026-11-20"
+     }
     },
     {
      "id": "TR-51",
@@ -1063,16 +1735,28 @@
       "en": "Niğde"
      },
      "file": "TR-51.pmtiles",
-     "bytes": 8456245,
-     "sha256": "4184d10e2c2f7eff41b362f07408ea4f3e272ee38f3b92b4c8c985c10add4e97",
+     "bytes": 8484017,
+     "sha256": "55ec2b3ac60de27b03833759e10d19e9e75162d3e112a3a9465a694e23f42dc6",
      "bbox": [
       33.9755,
       37.3314,
       35.3111,
       38.3887
      ],
-     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261103/TR-51.pmtiles",
-     "built": "2026-11-03"
+     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261120/TR-51.pmtiles",
+     "built": "2026-11-20",
+     "routing": {
+      "id": "TR-51-routing",
+      "name": {
+       "tr": "Niğde rota verisi",
+       "en": "Niğde routing data"
+      },
+      "file": "TR-51-routing.tar.gz",
+      "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-routing-split-20261120/TR-51-routing.tar.gz",
+      "bytes": 7572912,
+      "sha256": "ff8cc2918544396754ae014fd467076b0411902f23b435ede41f3f3c61fdfbc2",
+      "built": "2026-11-20"
+     }
     },
     {
      "id": "TR-52",
@@ -1081,16 +1765,28 @@
       "en": "Ordu"
      },
      "file": "TR-52.pmtiles",
-     "bytes": 19421073,
-     "sha256": "796c0e8cc1157e78de6872e21d3cdca4ed73cb891d2938d361d51c244b5441e4",
+     "bytes": 19423715,
+     "sha256": "4623689c468d00dd5b83c77a6dc54716bcfcf0bd616fabbb16a4126207778e64",
      "bbox": [
       36.6824,
       40.3258,
       38.116,
       41.1476
      ],
-     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261103/TR-52.pmtiles",
-     "built": "2026-11-03"
+     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261120/TR-52.pmtiles",
+     "built": "2026-11-20",
+     "routing": {
+      "id": "TR-52-routing",
+      "name": {
+       "tr": "Ordu rota verisi",
+       "en": "Ordu routing data"
+      },
+      "file": "TR-52-routing.tar.gz",
+      "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-routing-split-20261120/TR-52-routing.tar.gz",
+      "bytes": 7577538,
+      "sha256": "de8a8041ff87a08276c405b43ebfe79b1e5c48f18fd06d0f0eb01ff9b16a4534",
+      "built": "2026-11-20"
+     }
     },
     {
      "id": "TR-80",
@@ -1099,16 +1795,28 @@
       "en": "Osmaniye"
      },
      "file": "TR-80.pmtiles",
-     "bytes": 13831265,
-     "sha256": "f1e27b15e827f1d2b62aaf2ccc2a180d461041e9abb82c9ba9c9c5781618ee0e",
+     "bytes": 13852854,
+     "sha256": "33d777a52ec1aa5f0c784de186e89ceda1b7541a42df7c4df09788141baeed83",
      "bbox": [
       35.8765,
       36.9297,
       36.6965,
       37.7498
      ],
-     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261103/TR-80.pmtiles",
-     "built": "2026-11-03"
+     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261120/TR-80.pmtiles",
+     "built": "2026-11-20",
+     "routing": {
+      "id": "TR-80-routing",
+      "name": {
+       "tr": "Osmaniye rota verisi",
+       "en": "Osmaniye routing data"
+      },
+      "file": "TR-80-routing.tar.gz",
+      "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-routing-split-20261120/TR-80-routing.tar.gz",
+      "bytes": 5945164,
+      "sha256": "359d7793448cc1ae3c17d2515c247450e80fda6b97ea412e7b9f48eb43a1968b",
+      "built": "2026-11-20"
+     }
     },
     {
      "id": "TR-53",
@@ -1117,16 +1825,28 @@
       "en": "Rize"
      },
      "file": "TR-53.pmtiles",
-     "bytes": 12695088,
-     "sha256": "dd64e1bd4b1002c06e5d1161e26dca8f17894111e5738337172ee6bf6c970217",
+     "bytes": 12695732,
+     "sha256": "1740b53f15b371dd07c87f4f845d3c4006b9a7d6cdebb262e5c1f4061e912da0",
      "bbox": [
       40.3298,
       40.516,
       41.3758,
       41.3243
      ],
-     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261103/TR-53.pmtiles",
-     "built": "2026-11-03"
+     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261120/TR-53.pmtiles",
+     "built": "2026-11-20",
+     "routing": {
+      "id": "TR-53-routing",
+      "name": {
+       "tr": "Rize rota verisi",
+       "en": "Rize routing data"
+      },
+      "file": "TR-53-routing.tar.gz",
+      "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-routing-split-20261120/TR-53-routing.tar.gz",
+      "bytes": 3252536,
+      "sha256": "a8b38967d73b20dc0a0fc4e3ee20c0bf0acb87a68b32cfd58ccd0f8b4651830c",
+      "built": "2026-11-20"
+     }
     },
     {
      "id": "TR-54",
@@ -1135,16 +1855,28 @@
       "en": "Sakarya"
      },
      "file": "TR-54.pmtiles",
-     "bytes": 15497569,
-     "sha256": "458ecde71d379d04179a8d53506752a4b14ea2c2047cf8d84413685faba84e37",
+     "bytes": 15505789,
+     "sha256": "79ff271d450992dcc6a74fa8671646e7a8afcdfddfc82a00003c8437d95e51c7",
      "bbox": [
       29.967,
       40.2861,
       31.0125,
       41.1792
      ],
-     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261103/TR-54.pmtiles",
-     "built": "2026-11-03"
+     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261120/TR-54.pmtiles",
+     "built": "2026-11-20",
+     "routing": {
+      "id": "TR-54-routing",
+      "name": {
+       "tr": "Sakarya rota verisi",
+       "en": "Sakarya routing data"
+      },
+      "file": "TR-54-routing.tar.gz",
+      "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-routing-split-20261120/TR-54-routing.tar.gz",
+      "bytes": 12400616,
+      "sha256": "258eaf47c4a9b1cefa43d80a7f1eee34f78e89da4b6f2cd0aac60af3f508fb6d",
+      "built": "2026-11-20"
+     }
     },
     {
      "id": "TR-55",
@@ -1153,16 +1885,28 @@
       "en": "Samsun"
      },
      "file": "TR-55.pmtiles",
-     "bytes": 28777540,
-     "sha256": "05e6fb7cc7d9c118f1f5cf5b35c04d25d651a822897dafa013ef4f76b5e85de8",
+     "bytes": 28786556,
+     "sha256": "be854c9e47c7464bad2fd8654caae9a9ec9d21793829fa981b5abed074cb288d",
      "bbox": [
       34.8787,
       40.822,
       37.1699,
       41.7379
      ],
-     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261103/TR-55.pmtiles",
-     "built": "2026-11-03"
+     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261120/TR-55.pmtiles",
+     "built": "2026-11-20",
+     "routing": {
+      "id": "TR-55-routing",
+      "name": {
+       "tr": "Samsun rota verisi",
+       "en": "Samsun routing data"
+      },
+      "file": "TR-55-routing.tar.gz",
+      "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-routing-split-20261120/TR-55-routing.tar.gz",
+      "bytes": 10084626,
+      "sha256": "ecd3e64fd743298ba192e14950c69d5fa476276062b0ee5f97b6b67872854a3d",
+      "built": "2026-11-20"
+     }
     },
     {
      "id": "TR-56",
@@ -1171,16 +1915,28 @@
       "en": "Siirt"
      },
      "file": "TR-56.pmtiles",
-     "bytes": 7279304,
-     "sha256": "d659afcda36c07a13615c6eb42a6379a7683101c374c9698fd776462c07c2a84",
+     "bytes": 7280916,
+     "sha256": "69a0c82bc3ed8f5202a74839b97f52a903aea8f31426f001b53612314692905b",
      "bbox": [
       41.3615,
       37.5818,
       42.8845,
       38.2673
      ],
-     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261103/TR-56.pmtiles",
-     "built": "2026-11-03"
+     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261120/TR-56.pmtiles",
+     "built": "2026-11-20",
+     "routing": {
+      "id": "TR-56-routing",
+      "name": {
+       "tr": "Siirt rota verisi",
+       "en": "Siirt routing data"
+      },
+      "file": "TR-56-routing.tar.gz",
+      "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-routing-split-20261120/TR-56-routing.tar.gz",
+      "bytes": 2048672,
+      "sha256": "925d4d3ab804586d4298952244306ca5a782f40063179c78993a84f6f72d6037",
+      "built": "2026-11-20"
+     }
     },
     {
      "id": "TR-57",
@@ -1189,16 +1945,28 @@
       "en": "Sinop"
      },
      "file": "TR-57.pmtiles",
-     "bytes": 13207290,
-     "sha256": "5170824bfa14aded7b3b29a5787c6ff01c09032d40268bdf63e22e49a4d85e91",
+     "bytes": 13209795,
+     "sha256": "af219a9c63210ebf901d6dcd6fb23868efed221dafcb6d2f88dcb2a9d687ff2d",
      "bbox": [
       34.2237,
       41.202,
       35.4783,
       42.098
      ],
-     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261103/TR-57.pmtiles",
-     "built": "2026-11-03"
+     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261120/TR-57.pmtiles",
+     "built": "2026-11-20",
+     "routing": {
+      "id": "TR-57-routing",
+      "name": {
+       "tr": "Sinop rota verisi",
+       "en": "Sinop routing data"
+      },
+      "file": "TR-57-routing.tar.gz",
+      "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-routing-split-20261120/TR-57-routing.tar.gz",
+      "bytes": 4511339,
+      "sha256": "77fa882803092ee7e26638258cdf258a2d2d397685c6f3e992730efb9a6f255b",
+      "built": "2026-11-20"
+     }
     },
     {
      "id": "TR-58",
@@ -1207,16 +1975,28 @@
       "en": "Sivas"
      },
      "file": "TR-58.pmtiles",
-     "bytes": 28144903,
-     "sha256": "e72ad02485eba4c4b3dd6591529ea63106d8f66def26e81b0123087cd4f0cabd",
+     "bytes": 28174281,
+     "sha256": "cba73402d45d25b53bee3d99147d031b187540f8bed87dd492fa6f8ed4961b4d",
      "bbox": [
       35.8538,
       38.5371,
       38.7722,
       40.5526
      ],
-     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261103/TR-58.pmtiles",
-     "built": "2026-11-03"
+     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261120/TR-58.pmtiles",
+     "built": "2026-11-20",
+     "routing": {
+      "id": "TR-58-routing",
+      "name": {
+       "tr": "Sivas rota verisi",
+       "en": "Sivas routing data"
+      },
+      "file": "TR-58-routing.tar.gz",
+      "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-routing-split-20261120/TR-58-routing.tar.gz",
+      "bytes": 13374077,
+      "sha256": "e2b79ab429f53708a5ed1032972b8aed09bfa428942b98d659f75457c7e51fee",
+      "built": "2026-11-20"
+     }
     },
     {
      "id": "TR-59",
@@ -1225,16 +2005,28 @@
       "en": "Tekirdağ"
      },
      "file": "TR-59.pmtiles",
-     "bytes": 26069343,
-     "sha256": "c6eb3c193f2ebeee1901284c8428521a23719efcdd465adce6ca9de028a96194",
+     "bytes": 26097658,
+     "sha256": "85828755db2354fa6c54b81ef123ef2d6a33640035294143e1c856992a9712b1",
      "bbox": [
       26.6933,
       40.5383,
       28.1443,
       41.6097
      ],
-     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261103/TR-59.pmtiles",
-     "built": "2026-11-03"
+     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261120/TR-59.pmtiles",
+     "built": "2026-11-20",
+     "routing": {
+      "id": "TR-59-routing",
+      "name": {
+       "tr": "Tekirdağ rota verisi",
+       "en": "Tekirdağ routing data"
+      },
+      "file": "TR-59-routing.tar.gz",
+      "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-routing-split-20261120/TR-59-routing.tar.gz",
+      "bytes": 14925785,
+      "sha256": "a6e94c274c6836686aca0d6d6736b95f21f635d03f185ad986146a2ae52e1201",
+      "built": "2026-11-20"
+     }
     },
     {
      "id": "TR-60",
@@ -1243,16 +2035,28 @@
       "en": "Tokat"
      },
      "file": "TR-60.pmtiles",
-     "bytes": 24276535,
-     "sha256": "f2db8d77bb44414ac75cf5ceffba562c20e7c5d66d498d7972ab5128c4b22c48",
+     "bytes": 24298738,
+     "sha256": "3eabe3fcd8ae176a42219f1215ef5905dc4e065a61220ff6c129dd0623e66d0f",
      "bbox": [
       35.4326,
       39.8932,
       37.6654,
       40.9103
      ],
-     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261103/TR-60.pmtiles",
-     "built": "2026-11-03"
+     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261120/TR-60.pmtiles",
+     "built": "2026-11-20",
+     "routing": {
+      "id": "TR-60-routing",
+      "name": {
+       "tr": "Tokat rota verisi",
+       "en": "Tokat routing data"
+      },
+      "file": "TR-60-routing.tar.gz",
+      "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-routing-split-20261120/TR-60-routing.tar.gz",
+      "bytes": 9091516,
+      "sha256": "637e157fc16aef2f1a0e957546fc1baf185d385c75740d8aa53e76e8272011c9",
+      "built": "2026-11-20"
+     }
     },
     {
      "id": "TR-61",
@@ -1261,16 +2065,28 @@
       "en": "Trabzon"
      },
      "file": "TR-61.pmtiles",
-     "bytes": 24607551,
-     "sha256": "f9dff731b83f2276ce306d1ac527507c802afc3ac5329895ebc5e415eb73d4c4",
+     "bytes": 24608493,
+     "sha256": "dbf5cc30c82baad3630758cf4f3c475e3bdfcdd2855179b397dad6954d7889ad",
      "bbox": [
       39.1233,
       40.5135,
       40.5075,
       41.1077
      ],
-     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261103/TR-61.pmtiles",
-     "built": "2026-11-03"
+     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261120/TR-61.pmtiles",
+     "built": "2026-11-20",
+     "routing": {
+      "id": "TR-61-routing",
+      "name": {
+       "tr": "Trabzon rota verisi",
+       "en": "Trabzon routing data"
+      },
+      "file": "TR-61-routing.tar.gz",
+      "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-routing-split-20261120/TR-61-routing.tar.gz",
+      "bytes": 8027766,
+      "sha256": "c1d17b225470d86ae791f901991bd63d9596012d6308597b85b4f0362cd3a9de",
+      "built": "2026-11-20"
+     }
     },
     {
      "id": "TR-62",
@@ -1279,16 +2095,28 @@
       "en": "Tunceli"
      },
      "file": "TR-62.pmtiles",
-     "bytes": 12155070,
-     "sha256": "b37193ef11af5fea5a1e49a0b2aed5af54a46465667b3a387b6840b1f6a8ecfb",
+     "bytes": 12156859,
+     "sha256": "572b54f9e408bcac138479ec61783ae86b3be4e5091f3a6fbe5be7b22b341a1c",
      "bbox": [
       38.7319,
       38.7632,
       40.4038,
       39.615
      ],
-     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261103/TR-62.pmtiles",
-     "built": "2026-11-03"
+     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261120/TR-62.pmtiles",
+     "built": "2026-11-20",
+     "routing": {
+      "id": "TR-62-routing",
+      "name": {
+       "tr": "Tunceli rota verisi",
+       "en": "Tunceli routing data"
+      },
+      "file": "TR-62-routing.tar.gz",
+      "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-routing-split-20261120/TR-62-routing.tar.gz",
+      "bytes": 2551250,
+      "sha256": "13facb9becdc545164503962554d8b090e984f7c8974de2141bd49a42025b8fe",
+      "built": "2026-11-20"
+     }
     },
     {
      "id": "TR-64",
@@ -1297,16 +2125,28 @@
       "en": "Uşak"
      },
      "file": "TR-64.pmtiles",
-     "bytes": 10242775,
-     "sha256": "129e11bd51c1eb6bcb2df0eeb814020b68eea707d324f7553969971df308f830",
+     "bytes": 10255318,
+     "sha256": "670b7213ae4a77cbb2ae50655f11b7439c6a34a22c379776a475a4c898a49199",
      "bbox": [
       28.7544,
       38.1659,
       30.0341,
       38.9354
      ],
-     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261103/TR-64.pmtiles",
-     "built": "2026-11-03"
+     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261120/TR-64.pmtiles",
+     "built": "2026-11-20",
+     "routing": {
+      "id": "TR-64-routing",
+      "name": {
+       "tr": "Uşak rota verisi",
+       "en": "Uşak routing data"
+      },
+      "file": "TR-64-routing.tar.gz",
+      "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-routing-split-20261120/TR-64-routing.tar.gz",
+      "bytes": 4902482,
+      "sha256": "a3c548472de6d07b0c38c2e95e273627da39581100f394be3ad59482610b4981",
+      "built": "2026-11-20"
+     }
     },
     {
      "id": "TR-65",
@@ -1315,16 +2155,28 @@
       "en": "Van"
      },
      "file": "TR-65.pmtiles",
-     "bytes": 14454699,
-     "sha256": "60f6143d36c060fdda17e507d988d94558f7cc0c250cf2d5fc1368dab79651d0",
+     "bytes": 14455266,
+     "sha256": "1bffdea64ae3291dd6ba2721cf03682b8478e6fab59c243266213514b5d581d8",
      "bbox": [
       42.6622,
       37.7201,
       44.5125,
       39.371
      ],
-     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261103/TR-65.pmtiles",
-     "built": "2026-11-03"
+     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261120/TR-65.pmtiles",
+     "built": "2026-11-20",
+     "routing": {
+      "id": "TR-65-routing",
+      "name": {
+       "tr": "Van rota verisi",
+       "en": "Van routing data"
+      },
+      "file": "TR-65-routing.tar.gz",
+      "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-routing-split-20261120/TR-65-routing.tar.gz",
+      "bytes": 4157731,
+      "sha256": "febeaf6d39bf17fdfd13cb0229ec1b3aeeee83bc51b906348a2a8deb57508a59",
+      "built": "2026-11-20"
+     }
     },
     {
      "id": "TR-77",
@@ -1333,16 +2185,28 @@
       "en": "Yalova"
      },
      "file": "TR-77.pmtiles",
-     "bytes": 4263327,
-     "sha256": "755e68e4944a816bd75c349ae61efdcd6e26ad8136acd3e81ca857b5a866de0f",
+     "bytes": 4315251,
+     "sha256": "8202268c72aa7cbae892ed5475869513c243962b70e8cf3ea30b02a9f5789d68",
      "bbox": [
       28.7805,
       40.4562,
       29.5583,
       40.7431
      ],
-     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261103/TR-77.pmtiles",
-     "built": "2026-11-03"
+     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261120/TR-77.pmtiles",
+     "built": "2026-11-20",
+     "routing": {
+      "id": "TR-77-routing",
+      "name": {
+       "tr": "Yalova rota verisi",
+       "en": "Yalova routing data"
+      },
+      "file": "TR-77-routing.tar.gz",
+      "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-routing-split-20261120/TR-77-routing.tar.gz",
+      "bytes": 3834909,
+      "sha256": "ae7b95d1608a7b08ac4e6db1be0a11a6ad9f4408e581f4f323eb9cafaeb2deb0",
+      "built": "2026-11-20"
+     }
     },
     {
      "id": "TR-66",
@@ -1351,16 +2215,28 @@
       "en": "Yozgat"
      },
      "file": "TR-66.pmtiles",
-     "bytes": 14894807,
-     "sha256": "c42fca23b4a6c647690313ebd0d55b5d6ffb366d8936bbbf8c3a3d01008aa4b7",
+     "bytes": 14896040,
+     "sha256": "0b63c3b69a15113832e40d3dd4bbcfce51da020d56848fe8ffa779a7aeec322c",
      "bbox": [
       34.0607,
       38.986,
       36.1683,
       40.2551
      ],
-     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261103/TR-66.pmtiles",
-     "built": "2026-11-03"
+     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261120/TR-66.pmtiles",
+     "built": "2026-11-20",
+     "routing": {
+      "id": "TR-66-routing",
+      "name": {
+       "tr": "Yozgat rota verisi",
+       "en": "Yozgat routing data"
+      },
+      "file": "TR-66-routing.tar.gz",
+      "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-routing-split-20261120/TR-66-routing.tar.gz",
+      "bytes": 10161178,
+      "sha256": "5f3d4bc5ae0bb1efd68d8b0ddd88ccff2c3afd7de7798e786743f43b42450301",
+      "built": "2026-11-20"
+     }
     },
     {
      "id": "TR-67",
@@ -1369,16 +2245,28 @@
       "en": "Zonguldak"
      },
      "file": "TR-67.pmtiles",
-     "bytes": 8614832,
-     "sha256": "804746a3094198396422359912c0ea2d65e4e4fdb8e7006f47bb0ee6048b94ca",
+     "bytes": 8615878,
+     "sha256": "cd4466b5f2807f09a7c083ae064a9ddd483554938c64cd6c50c6b24eb3ee4d3c",
      "bbox": [
       31.293,
       41.007,
       32.2947,
       41.5896
      ],
-     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261103/TR-67.pmtiles",
-     "built": "2026-11-03"
+     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261120/TR-67.pmtiles",
+     "built": "2026-11-20",
+     "routing": {
+      "id": "TR-67-routing",
+      "name": {
+       "tr": "Zonguldak rota verisi",
+       "en": "Zonguldak routing data"
+      },
+      "file": "TR-67-routing.tar.gz",
+      "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-routing-split-20261120/TR-67-routing.tar.gz",
+      "bytes": 2308181,
+      "sha256": "bc2e50063277576134f85e74294cc8d28368a349501f93c93e21172ea6461c30",
+      "built": "2026-11-20"
+     }
     },
     {
      "id": "TR-17",
@@ -1387,16 +2275,28 @@
       "en": "Çanakkale"
      },
      "file": "TR-17.pmtiles",
-     "bytes": 23553445,
-     "sha256": "4bc46ab18c50ef49da54af6a820c08ea9ff67ec05d0e6b508a2d3db6b392f181",
+     "bytes": 23572846,
+     "sha256": "f08147bbc99079be37dfe6779f87a5c0287667f8aaf21fbfe91156683c648ccf",
      "bbox": [
       25.6654,
       39.4533,
       27.5487,
       40.762
      ],
-     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261103/TR-17.pmtiles",
-     "built": "2026-11-03"
+     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261120/TR-17.pmtiles",
+     "built": "2026-11-20",
+     "routing": {
+      "id": "TR-17-routing",
+      "name": {
+       "tr": "Çanakkale rota verisi",
+       "en": "Çanakkale routing data"
+      },
+      "file": "TR-17-routing.tar.gz",
+      "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-routing-split-20261120/TR-17-routing.tar.gz",
+      "bytes": 12068314,
+      "sha256": "7c6ed7fed859242a540e33f35012b7121e9f86edad57f93e00215cad2169c8eb",
+      "built": "2026-11-20"
+     }
     },
     {
      "id": "TR-18",
@@ -1405,16 +2305,28 @@
       "en": "Çankırı"
      },
      "file": "TR-18.pmtiles",
-     "bytes": 10559953,
-     "sha256": "f150f0ad545c02c3d4256d83965f8bdf943a1e1c6441d1d943e837cff1760b28",
+     "bytes": 10566994,
+     "sha256": "d807c0be17a47a0c0f28e1bd99b75f51469b937b37cfdc9f7a9fd16f1db97dff",
      "bbox": [
       32.5692,
       40.2548,
       34.1657,
       41.0892
      ],
-     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261103/TR-18.pmtiles",
-     "built": "2026-11-03"
+     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261120/TR-18.pmtiles",
+     "built": "2026-11-20",
+     "routing": {
+      "id": "TR-18-routing",
+      "name": {
+       "tr": "Çankırı rota verisi",
+       "en": "Çankırı routing data"
+      },
+      "file": "TR-18-routing.tar.gz",
+      "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-routing-split-20261120/TR-18-routing.tar.gz",
+      "bytes": 3439298,
+      "sha256": "2bf335fcd19e7950ee6b383b1f17685d4096af64a7cdce94d89a59f6c7bbb5ab",
+      "built": "2026-11-20"
+     }
     },
     {
      "id": "TR-19",
@@ -1423,16 +2335,28 @@
       "en": "Çorum"
      },
      "file": "TR-19.pmtiles",
-     "bytes": 16943248,
-     "sha256": "0487d441c2f98869dedf77bbec59c345d9c842a7ad3f1910014b74f67168c62f",
+     "bytes": 16967261,
+     "sha256": "a586f00dc073dfc3c29ebed3f3c56d59616c369201f5d8db52825721fda33c12",
      "bbox": [
       33.9613,
       39.9394,
       35.5309,
       41.3509
      ],
-     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261103/TR-19.pmtiles",
-     "built": "2026-11-03"
+     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261120/TR-19.pmtiles",
+     "built": "2026-11-20",
+     "routing": {
+      "id": "TR-19-routing",
+      "name": {
+       "tr": "Çorum rota verisi",
+       "en": "Çorum routing data"
+      },
+      "file": "TR-19-routing.tar.gz",
+      "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-routing-split-20261120/TR-19-routing.tar.gz",
+      "bytes": 8059198,
+      "sha256": "e7614bb63f2297667b2e1577f6ae752393ffec62fe8f89651ac23b0e730f7151",
+      "built": "2026-11-20"
+     }
     },
     {
      "id": "TR-34",
@@ -1441,16 +2365,28 @@
       "en": "İstanbul"
      },
      "file": "TR-34.pmtiles",
-     "bytes": 66672361,
-     "sha256": "85a30e56fdfab9a7d36ee7d8ec1d8d11a4708e5b6a11e741d1259b050495dbd6",
+     "bytes": 66809051,
+     "sha256": "6335e953d0c916b453bd5d04a5e1878b6984a447b0e1ea5578978761f598f216",
      "bbox": [
       27.9708,
       40.7907,
       29.9588,
       41.5906
      ],
-     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261103/TR-34.pmtiles",
-     "built": "2026-11-03"
+     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261120/TR-34.pmtiles",
+     "built": "2026-11-20",
+     "routing": {
+      "id": "TR-34-routing",
+      "name": {
+       "tr": "İstanbul rota verisi",
+       "en": "İstanbul routing data"
+      },
+      "file": "TR-34-routing.tar.gz",
+      "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-routing-split-20261120/TR-34-routing.tar.gz",
+      "bytes": 36635466,
+      "sha256": "f21274b76107731ae6296bf231b983be5ff2ee3d738178a3afc682e8f2be0912",
+      "built": "2026-11-20"
+     }
     },
     {
      "id": "TR-35",
@@ -1459,16 +2395,28 @@
       "en": "İzmir"
      },
      "file": "TR-35.pmtiles",
-     "bytes": 45611726,
-     "sha256": "71bf3181e66b574acbd0f9a6c679202cfc2a80751091fc44906ac0e98a1a3271",
+     "bytes": 45638288,
+     "sha256": "c89514ede1e36814341e2b5e08afa217ff3ea373afe1212ac97b51b4cf29993f",
      "bbox": [
       26.2081,
       37.8152,
       28.493,
       39.3855
      ],
-     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261103/TR-35.pmtiles",
-     "built": "2026-11-03"
+     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261120/TR-35.pmtiles",
+     "built": "2026-11-20",
+     "routing": {
+      "id": "TR-35-routing",
+      "name": {
+       "tr": "İzmir rota verisi",
+       "en": "İzmir routing data"
+      },
+      "file": "TR-35-routing.tar.gz",
+      "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-routing-split-20261120/TR-35-routing.tar.gz",
+      "bytes": 25055611,
+      "sha256": "bd9fd7ef8e60f882f036fe23fd3f1806205685e68f9c9949673d0433412915a6",
+      "built": "2026-11-20"
+     }
     },
     {
      "id": "TR-63",
@@ -1477,16 +2425,28 @@
       "en": "Şanlıurfa"
      },
      "file": "TR-63.pmtiles",
-     "bytes": 27844513,
-     "sha256": "8862b50f3b0dd165ce689fa44252b7b257e5bfed04625b6fc1beb627fcd3bf67",
+     "bytes": 27878279,
+     "sha256": "0581b20bc05512472e4eb6345e606c35e9356df58904cd5ad74388a24f840708",
      "bbox": [
       37.8352,
       36.6691,
       40.2385,
       38.0205
      ],
-     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261103/TR-63.pmtiles",
-     "built": "2026-11-03"
+     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261120/TR-63.pmtiles",
+     "built": "2026-11-20",
+     "routing": {
+      "id": "TR-63-routing",
+      "name": {
+       "tr": "Şanlıurfa rota verisi",
+       "en": "Şanlıurfa routing data"
+      },
+      "file": "TR-63-routing.tar.gz",
+      "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-routing-split-20261120/TR-63-routing.tar.gz",
+      "bytes": 14572187,
+      "sha256": "721dc8d6d3824d9124a7307876bf091fd9cf0fb857850befc96aadb3f82d3bd9",
+      "built": "2026-11-20"
+     }
     },
     {
      "id": "TR-73",
@@ -1495,16 +2455,28 @@
       "en": "Şırnak"
      },
      "file": "TR-73.pmtiles",
-     "bytes": 10547005,
-     "sha256": "3226cf5612d658623332deab85ebe00da85eaf0b317f09b461e4d616333e078b",
+     "bytes": 10548029,
+     "sha256": "596ca3d576c9474296a591c40dd1c9f65edd7fa4f0c236cb79ae5a4f3f15c0ee",
      "bbox": [
       41.5455,
       37.1053,
       43.4992,
       37.7698
      ],
-     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261103/TR-73.pmtiles",
-     "built": "2026-11-03"
+     "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-provinces-20261120/TR-73.pmtiles",
+     "built": "2026-11-20",
+     "routing": {
+      "id": "TR-73-routing",
+      "name": {
+       "tr": "Şırnak rota verisi",
+       "en": "Şırnak routing data"
+      },
+      "file": "TR-73-routing.tar.gz",
+      "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-routing-split-20261120/TR-73-routing.tar.gz",
+      "bytes": 2220400,
+      "sha256": "e015d6be1303cd1422526434fd9af899a65c95784848e124450aa608a59fbed2",
+      "built": "2026-11-20"
+     }
     }
    ],
    "routing": {
@@ -1514,10 +2486,10 @@
      "en": "Turkey routing data"
     },
     "file": "tr-routing.tar.gz",
-    "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-routing-20261111/tr-routing.tar.gz",
-    "bytes": 465287541,
-    "sha256": "a977531feac710e83299f096b9979e9e74024984d3420ec84681c691f3aa5ba1",
-    "built": "2026-11-11"
+    "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-routing-20261120/tr-routing.tar.gz",
+    "bytes": 466892791,
+    "sha256": "6a41a774b2963b13e43babc497705bf18b88ec25a415c6d5fb87a47740c62f64",
+    "built": "2026-11-20"
    },
    "search": {
     "id": "TR-search",
@@ -1526,10 +2498,10 @@
      "en": "Turkey search data"
     },
     "file": "tr-search.sqlite.gz",
-    "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-search-20261112/tr-search.sqlite.gz",
-    "bytes": 43721236,
-    "sha256": "a385ea9bb7e807efb4a757150e8840ac68b9250bffa8f5ed177ba3e829a72dd9",
-    "built": "2026-11-12"
+    "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-search-20261120/tr-search.sqlite.gz",
+    "bytes": 44074946,
+    "sha256": "c525edfcdd56b8de6f961ede130a9973931767593eb1bf4d81c5302c90edbfec",
+    "built": "2026-11-20"
    },
    "elevation": {
     "id": "TR-elevation",
@@ -1542,6 +2514,18 @@
     "bytes": 110924818,
     "sha256": "5796fd17fe66061b4880cbd92a7a6048b0dd2db0c964be65a9c83535d31b3e3f",
     "built": "2026-11-13"
+   },
+   "routing_base": {
+    "id": "TR-routing-base",
+    "name": {
+     "tr": "Türkiye ana yollar rota verisi",
+     "en": "Turkey main roads routing data"
+    },
+    "file": "TR-routing-base.tar.gz",
+    "url": "https://github.com/ihsansunman/motonav-maps/releases/download/tr-routing-split-20261120/TR-routing-base.tar.gz",
+    "bytes": 117373191,
+    "sha256": "fe904268b68cfb32038d401c731706ca930b14d3c0e6a998c43711237b7fd2ce",
+    "built": "2026-11-20"
    }
   },
   {
